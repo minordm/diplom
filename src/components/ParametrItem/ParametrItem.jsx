@@ -1,21 +1,18 @@
-import "./ParametrItem.css";
+import cn from "classnames";
+import styles from "./ParametrItem.module.css";
 
 function ParametrItem({ name, value, unit, isHead }) {
-
-  if (isHead) {
-    return (
-        <div className="parametr-head">
-          <div className="parametr-head__name">{name}</div>
-          <div className="parametr-item__value">{value}</div>
-          <div className="parametr-item__unit">{unit}</div>
-        </div>
-    );
-  }
   return (
-    <div className="parametr-item">
-      <div className="parametr-item__name">{name}</div>
-      <div className="parametr-item__value">{value}</div>
-      <div className="parametr-item__unit">{unit}</div>
+    <div
+      className={cn(styles["parametr-item"], {
+        [styles["parametr-head"]]: isHead,
+      })}
+    >
+      <div className={cn(styles["parametr-item__name"], {
+        [styles["parametr-head__name"]]: isHead
+      })}>{name}</div>
+      <div className={styles["parametr-item__value"]}>{value}</div>
+      <div className={styles["parametr-item__unit"]}>{unit}</div>
     </div>
   );
 }
