@@ -1,0 +1,45 @@
+.parametr-item, .parametr-head {
+    width: 520px;
+    height: 27px;
+    background: rgb(13, 44, 73);
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.parametr-item__value, 
+.parametr-item__unit, 
+.parametr-item__name, 
+.parametr-head__name { 
+    padding: 0px 15px;
+}
+
+.parametr-item__name {
+    width: 260px;
+    color: yellow;
+}
+
+.parametr-item__value, 
+.parametr-item__unit {
+    width: 130px;
+}
+
+.parametr-item__value {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.parametr-head {
+    height: 39px; 
+    align-items: end;
+    font-size: 10px; 
+    color: rgb(109, 147, 183); 
+    box-sizing: border-box;
+    border-bottom: 2px solid rgb(86, 160, 207);
+}
+
+.parametr-head__name {
+    width: 260px;
+} 
