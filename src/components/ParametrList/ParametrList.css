@@ -1,5 +1,4 @@
 .parametr_list {
-    width: 520px;
-    max-height: 546px;
+    /* max-height: 546px; */
     overflow-y: auto; 
 }

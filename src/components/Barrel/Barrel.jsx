@@ -28,7 +28,7 @@ function Barrel() {
         <div className="barrel__img">
           <img
             className="barrel__img_svg"
-            src="./barrel_with.svg"
+            src="./barrel.svg"
             alt="barrel pic"
           />
         </div>
