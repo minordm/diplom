@@ -27,7 +27,7 @@
     display: flex;
 }
 
-.barrel__level_panel {
+.barrel__right_panel {
     width: 260px;
     height: 158px;
     display: flex;
@@ -62,6 +62,33 @@
 }
 
 .barrel__img_svg {
-    width: 158px;
+    /* width: 158px; */
     height: 158px;
+    position: relative;
+}
+
+.barrel__level {
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+.barrel__level_gas {
+    width: 20px;
+    height: 45px;
+    background-color: rgb(252, 180, 20);
+}
+
+.barrel__level_oil {
+    width: 20px;
+    height: 45px;
+    background-color: rgb(2, 34, 49);
+}
+
+.barrel__level_water {
+    width: 20px;
+    height: 45px;
+    background-color: rgb(0, 171, 191);
 }
