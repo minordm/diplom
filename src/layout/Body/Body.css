@@ -3,5 +3,5 @@
     height: 736px;
     display: flex;
     flex-direction: column;
-    outline: 3px solid rgb(86, 160, 207);
+    /* outline: 3px solid rgb(86, 160, 207); */
 }
