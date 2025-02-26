@@ -6,7 +6,15 @@
 
 .app {
   width: 1730px;
-  height: 775px;
+  /* height: 775px; */
   display: flex;
-  border: 1px solid rgb(86, 160, 207);
+  /* border: 1px solid rgb(86, 160, 207); */
+}
+
+.main-page {
+  background: rgb(10, 25, 40);
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 10px 15px;
 }
