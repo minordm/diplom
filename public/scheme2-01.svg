@@ -166,7 +166,7 @@
         fill: #0400aa;
       }
 
-      .cls-205, .cls-146, .cls-148, .cls-192 {
+      .cls-205, .cls-146, .cls-148 {
         fill: #fa0;
       }
 
@@ -2489,19 +2489,19 @@
   <g id="_элементы" data-name="элементы">
     <g id="_кру" data-name="кру">
       <g id="_красный" data-name="красный">
-        <use width="260.26" height="132.66" transform="translate(8102.03 2605.33)" xlink:href="#_КРУ"/>
-        <use width="260.26" height="132.66" transform="translate(6541.07 5505.54)" xlink:href="#_КРУ"/>
-        <use width="260.26" height="132.66" transform="translate(2738.32 3907.32)" xlink:href="#_КРУ"/>
-        <use width="260.26" height="132.66" transform="translate(2737.81 2914.57)" xlink:href="#_КРУ"/>
-        <use width="260.26" height="132.66" transform="translate(5053.95 2914.64)" xlink:href="#_КРУ"/>
-        <use width="260.26" height="132.66" transform="translate(5054.01 3907.32)" xlink:href="#_КРУ"/>
+        <use width="260.26" height="132.66" fill="#fa0" transform="translate(8102.03 2605.33)" xlink:href="#_КРУ"/>
+        <use width="260.26" height="132.66" fill="#fa0" transform="translate(6541.07 5505.54)" xlink:href="#_КРУ"/>
+        <use width="260.26" height="132.66" fill="#fa0" transform="translate(2738.32 3907.32)" xlink:href="#_КРУ"/>
+        <use width="260.26" height="132.66" fill="#fa0" transform="translate(2737.81 2914.57)" xlink:href="#_КРУ"/>
+        <use width="260.26" height="132.66" fill="#fa0" transform="translate(5053.95 2914.64)" xlink:href="#_КРУ"/>
+        <use width="260.26" height="132.66" fill="#fa0" transform="translate(5054.01 3907.32)" xlink:href="#_КРУ"/>
       </g>
       <g id="_синий" data-name="синий">
-        <use width="260.26" height="132.66" transform="translate(2326.46 3265.11)" xlink:href="#_КРУ"/>
-        <use width="260.26" height="132.66" transform="translate(2326.19 4202.61)" xlink:href="#_КРУ"/>
-        <use width="260.26" height="132.66" transform="translate(5981.07 5033.1)" xlink:href="#_КРУ"/>
-        <use width="260.26" height="132.66" transform="translate(4475.39 3264.74)" xlink:href="#_КРУ"/>
-        <use width="260.26" height="132.66" transform="translate(4475.94 4203.21)" xlink:href="#_КРУ"/>
+        <use width="260.26" height="132.66" fill="#0092ff" transform="translate(2326.46 3265.11)" xlink:href="#_КРУ"/>
+        <use width="260.26" height="132.66" fill="#0092ff" transform="translate(2326.19 4202.61)" xlink:href="#_КРУ"/>
+        <use width="260.26" height="132.66" fill="#0092ff" transform="translate(5981.07 5033.1)" xlink:href="#_КРУ"/>
+        <use width="260.26" height="132.66" fill="#0092ff" transform="translate(4475.39 3264.74)" xlink:href="#_КРУ"/>
+        <use width="260.26" height="132.66" fill="#0092ff" transform="translate(4475.94 4203.21)" xlink:href="#_КРУ"/>
       </g>
     </g>
     <g id="_пбт-2" data-name="пбт">

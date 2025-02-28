@@ -6,16 +6,12 @@
 
     /* height: 880px; */
     /* height: 100vh; */
-    /* border: 1px solid rgb(86, 160, 207); */
+    border: 1px solid rgb(86, 160, 207);
     border-top: 3px solid rgb(86, 160, 207);
 }
 
 .scheme {
     width: 11927px;
-}
-
-.st147:hover {
-    filter: brightness(0.3) sepia(0.5) opacity(60%);
 }
 
 use:hover {
