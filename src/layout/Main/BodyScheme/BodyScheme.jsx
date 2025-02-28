@@ -1,9 +1,22 @@
 import "./BodyScheme.css";
 
+// function BodyScheme() {
+//   return (
+//     <div className="body-scheme">
+//     </div>
+//   );
+// }
+
+// export default BodyScheme;
+
+import { ReactSVG } from "react-svg";
+
 function BodyScheme() {
   return (
-    // <div className='body-scheme'></div>
-    <img className='body-scheme' src='/scheme.svg'/>
+    <div className="body-scheme">
+      <ReactSVG src="./scheme2-01.svg" className='scheme1' />
+      {/* <img src="./scheme.svg" alt="barrel pic" /> */}
+    </div>
   );
 }
 

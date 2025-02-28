@@ -1,9 +1,9 @@
 import "./App.css";
-// import AlertItem from "./components/Main/AlertItem/AlertItem";
-import AlertList from './components/Main/AlertList/AlertList';
-import Diagrama from './components/Main/Diagrama/Diagrama';
+// import Barrel from './components/Graphic/Barrel/Barrel';
+// import AlertList from './components/Main/AlertList/AlertList';
+// import Diagrama from './components/Main/Diagrama/Diagrama';
 import BodyScheme from './layout/Main/BodyScheme/BodyScheme';
-import RightPanel from './layout/Main/RightPanel/RightPanel';
+// import RightPanel from './layout/Main/RightPanel/RightPanel';
 // import AlertPanel from "./components/Graphic/AlertPanel/AlertPanel";
 // import Barrel from "./components/Graphic/Barrel/Barrel";
 // import { LineGraph } from "./components/Graphic/Graphics/Line";
@@ -22,13 +22,15 @@ function App() {
         <LineGraph />
         <AlertPanel />
       </Body> */}
-      {/* <AlertItem name="H-1" datatime="12-02-2024 15:32" message='Тревога: “Давление на приеме насоса Н-1 ниже предельного на 0,031 МПа. Обводненность нефти на СИКН 0,170%”'/> */}
       <div className='main-page'>
-        <BodyScheme />
+        {/* <BodyScheme />
         <RightPanel>
-          <Diagrama />
-          <AlertList />
-        </RightPanel>
+        <Diagrama />
+        
+        <AlertList />
+        </RightPanel> */}
+        <BodyScheme />
+        {/* <Barrel /> */}
       </div>
     </div>
   );
