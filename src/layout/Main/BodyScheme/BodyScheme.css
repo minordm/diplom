@@ -17,3 +17,9 @@
 use:hover {
     filter: brightness(0.3) sepia(0.5) opacity(60%);
 }
+
+.zoom-button {
+    /* padding: 4px 2px; */
+    /* background: gray; */
+    background-color: var(--color-gray-800)
+}
