@@ -250,7 +250,7 @@
         font-family: 'Myriad Pro', sans-serif;
       }
 
-      .cls-213, .cls-217 {
+      .cls-213, .cls-217, .cls-218 {
         font-size: 111px;
       }
 
@@ -455,12 +455,14 @@
         stroke-width: 13.45px;
       }
 
-      .cls-218 {
-        font-size: 133px;
-      }
 
       .cls-122 {
         stroke-width: 13.12px;
+      }
+
+      .cls-222 {
+        font-size: .7em;
+        baseline-shift: super;
       }
 
       .cls-123 {
@@ -2140,7 +2142,7 @@
           <text class="cls-218" transform="translate(1717 1446)"><tspan>Значения</tspan></text>
         </g>
         <g id="_параметры" data-name="параметры">
-          <text class="cls-217" transform="translate(114 1593)"><tspan>Расход нефти, м<tspan font-size=".7em" baseline-shift="super">3</tspan>/сут</tspan></text>
+          <text class="cls-217" transform="translate(114 1593)"><tspan>Расход нефти, м<tspan class="cls-222">3</tspan>/сут</tspan></text>
           <text class="cls-217" transform="translate(114 1731)"><tspan>Давление в С-1/1, МПа (факт)</tspan></text>
           <text class="cls-217" transform="translate(114 1876)"><tspan>Уровень ж-ти в С-1/1, мм (факт)</tspan></text>
           <text class="cls-217" transform="translate(114 2020)"><tspan>Давление в С-1/2, МПа (факт)</tspan></text>
@@ -2168,7 +2170,7 @@
       <g id="_текст-2" data-name="текст">
         <g id="_заголовок-2" data-name="заголовок">
           <text class="cls-213" transform="translate(11190 2252)"><tspan>Значения</tspan></text>
-          <text class="cls-213" transform="translate(9500 2252)"><tspan>Расход газа, тыс. м<tspan font-size=".7em" baseline-shift="super">3</tspan>/сут (н.у.)</tspan></text>
+          <text class="cls-213" transform="translate(9500 2252)"><tspan>Расход газа, тыс. м<tspan class="cls-222">3</tspan>/сут (н.у.)</tspan></text>
         </g>
         <g id="_параметры-2" data-name="параметры">
           <text class="cls-217" transform="translate(9500 2405)"><tspan>На ФВД (факт)</tspan></text>
@@ -2197,7 +2199,7 @@
       <g id="_текст-3" data-name="текст">
         <g id="_заголовок-3" data-name="заголовок">
           <text class="cls-213" transform="translate(11495 1416)"><tspan>Значения</tspan></text>
-          <text class="cls-213" transform="translate(9785 1416)"><tspan>Расход газа, тыс. м<tspan font-size=".7em" baseline-shift="super">3</tspan>/сут (н. у.)</tspan></text>
+          <text class="cls-213" transform="translate(9785 1416)"><tspan>Расход газа, тыс. м<tspan class="cls-222">3</tspan>/сут (н. у.)</tspan></text>
         </g>
         <g id="_параметры-3" data-name="параметры">
           <text class="cls-217" transform="translate(9785 1562)"><tspan>На УНРА (факт)</tspan></text>
@@ -2227,8 +2229,8 @@
         </g>
         <g id="_параметры-4" data-name="параметры">
           <text class="cls-217" transform="translate(9206 5041)"><tspan>Давление на входе, МПа (факт)</tspan></text>
-          <text class="cls-217" transform="translate(9206 5180)"><tspan>Расхд воды, м<tspan font-size=".7em" baseline-shift="super">3</tspan>/сут (факт)</tspan></text>
-          <text class="cls-217" transform="translate(9206 5324)"><tspan>Расхд воды, м<tspan font-size=".7em" baseline-shift="super">3</tspan>/сут</tspan></text>
+          <text class="cls-217" transform="translate(9206 5180)"><tspan>Расхд воды, м<tspan class="cls-222">3</tspan>/сут (факт)</tspan></text>
+          <text class="cls-217" transform="translate(9206 5324)"><tspan>Расхд воды, м<tspan class="cls-222">3</tspan>/сут</tspan></text>
           <text class="cls-217" transform="translate(9206 5467)"><tspan>Давление на выходе, МПа (факт)</tspan></text>
         </g>
         <g id="_значения-4" data-name="значения">
@@ -2299,8 +2301,8 @@
           <text class="cls-217" transform="translate(8868 7760)"><tspan>Значения</tspan></text>
         </g>
         <g id="_параметры-7" data-name="параметры">
-          <text class="cls-217" transform="translate(6656 7894)"><tspan>Расход на входе, м<tspan font-size=".7em" baseline-shift="super">3</tspan>/сут (факт)</tspan></text>
-          <text class="cls-217" transform="translate(6656 8044)"><tspan>Расход на входе, м<tspan font-size=".7em" baseline-shift="super">3</tspan>/сут</tspan></text>
+          <text class="cls-217" transform="translate(6656 7894)"><tspan>Расход на входе, м<tspan class="cls-222">3</tspan>/сут (факт)</tspan></text>
+          <text class="cls-217" transform="translate(6656 8044)"><tspan>Расход на входе, м<tspan class="cls-222">3</tspan>/сут</tspan></text>
         </g>
         <g id="_значения-7" data-name="значения">
           <text class="cls-217" transform="translate(8868 7894)"><tspan>0</tspan></text>
@@ -2321,8 +2323,8 @@
           <text class="cls-217" transform="translate(8855 7195)"><tspan>Значения</tspan></text>
         </g>
         <g id="_параметры-8" data-name="параметры">
-          <text class="cls-217" transform="translate(6656 7340)"><tspan>Расход на входе, м<tspan font-size=".7em" baseline-shift="super">3</tspan>/сут (факт)</tspan></text>
-          <text class="cls-217" transform="translate(6656 7478)"><tspan>Расход на входе, м<tspan font-size=".7em" baseline-shift="super">3</tspan>/сут</tspan></text>
+          <text class="cls-217" transform="translate(6656 7340)"><tspan>Расход на входе, м<tspan class="cls-222">3</tspan>/сут (факт)</tspan></text>
+          <text class="cls-217" transform="translate(6656 7478)"><tspan>Расход на входе, м<tspan class="cls-222">3</tspan>/сут</tspan></text>
         </g>
         <g id="_значения-8" data-name="значения">
           <text class="cls-217" transform="translate(8855 7340)"><tspan>0</tspan></text>
@@ -2346,7 +2348,7 @@
           <text class="cls-217" transform="translate(3486 7196)"><tspan>Значения</tspan></text>
         </g>
         <g id="_параметры-9" data-name="параметры">
-          <text class="cls-217" transform="translate(1908 7343)"><tspan>Расход воды, м<tspan font-size=".7em" baseline-shift="super">3</tspan>/сут</tspan></text>
+          <text class="cls-217" transform="translate(1908 7343)"><tspan>Расход воды, м<tspan class="cls-222">3</tspan>/сут</tspan></text>
           <text class="cls-217" transform="translate(1908 7480)"><tspan>Давление в ОВ-1, МПа (факт)</tspan></text>
           <text class="cls-217" transform="translate(1908 7626)"><tspan>Уровень в ОВ-1, мм (факт)</tspan></text>
           <text class="cls-217" transform="translate(1908 7770)"> <tspan>Давление в ОВ-2, МПа (факт)</tspan></text>
@@ -2405,7 +2407,7 @@
           <text class="cls-217" transform="translate(4270 311)"><tspan>Значения</tspan></text>
         </g>
         <g id="_параметры-11" data-name="параметры">
-          <text class="cls-217" transform="translate(2678 455)"> <tspan>Расход нефти, м<tspan font-size=".7em" baseline-shift="super">3</tspan>/сут</tspan></text>
+          <text class="cls-217" transform="translate(2678 455)"> <tspan>Расход нефти, м<tspan class="cls-222">3</tspan>/сут</tspan></text>
           <text class="cls-217" transform="translate(2678 595)"> <tspan>Давление в С-2/1, МПа (факт)</tspan></text>
           <text class="cls-217" transform="translate(2678 740)"> <tspan>Уровень ж-ти в С-2/1, мм (факт)</tspan></text>
           <text class="cls-217" transform="translate(2678 884)"> <tspan>Давление в С-2/2, МПа (факт)</tspan></text>
@@ -2432,7 +2434,7 @@
       <g id="_текст-12" data-name="текст">
 
         <g id="_заголовок-12" data-name="заголовок">
-          <text class="cls-213" transform="translate(8928 291)"><tspan>Расход газа, тыс. м<tspan font-size=".7em" baseline-shift="super">3</tspan>/сут (н. у.)</tspan></text>
+          <text class="cls-213" transform="translate(8928 291)"><tspan>Расход газа, тыс. м<tspan class="cls-222">3</tspan>/сут (н. у.)</tspan></text>
           <text class="cls-213" transform="translate(10400 291)"><tspan>Значения</tspan></text>
         </g>
         <g id="_параметры-12" data-name="параметры">
