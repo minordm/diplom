@@ -18,12 +18,10 @@ import { LineGraph } from "./components/Graphic/Graphics/Line.jsx";
 import AlertPanel from "./components/Graphic/AlertPanel/AlertPanel.jsx";
 // странички
 import Error from "./components/Error/Error.jsx";
-// import Layout from './layout/Page/Page.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    // element: <Layout />,
     children: [ 
       {
         path: '/',
