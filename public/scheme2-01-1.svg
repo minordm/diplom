@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 12234.19 8253.9">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 12400 8253.9">
   <defs>
     <style>
       .cls-1 {
@@ -154,8 +154,12 @@
         fill: #0400aa;
       }
 
-      .cls-209, .cls-151, .cls-152, .cls-196 {
+      .cls-209, .cls-151, .cls-152 {
         fill: #fa0;
+      }
+
+      .cls-196 {
+        fill: currentColor;
       }
 
       .cls-31 {
@@ -630,6 +634,15 @@
         stroke: #fff;
         stroke-dasharray: 60.93 60.93;
       }
+
+      .icon-yellow {
+        color: #ffaa01;
+      }
+
+      .icon-blue {
+        color: #0092ff;
+      }
+      
     </style>
     <linearGradient id="_Безымянный_градиент_8" data-name="Безымянный градиент 8" x1="38.51" y1="16615.95" x2="134.32" y2="16615.95" gradientTransform="translate(0 16833.15) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#6c6c6c"/>
@@ -2054,11 +2067,11 @@
     </symbol>
   </defs>
   <g id="_фон" data-name="фон">
-    <rect class="cls-220" x="0" y="-5.69" width="12234.19" height="8253.9"/>
+    <rect class="cls-220" x="0" y="-5.69" width="14000" height="8253.9"/>
   </g>
   <g id="_элементы" data-name="элементы">
     <g id="_кру" data-name="кру">
-      <g id="_красный" data-name="красный">
+      <g id="_красный" data-name="красный" color='#fa0'>
         <use width="260.26" height="132.66" transform="translate(8102.03 2605.33)" xlink:href="#_КРУ"/>
         <use width="260.26" height="132.66" transform="translate(6541.07 5505.54)" xlink:href="#_КРУ"/>
         <use width="260.26" height="132.66" transform="translate(2738.32 3907.32)" xlink:href="#_КРУ"/>
@@ -2066,7 +2079,7 @@
         <use width="260.26" height="132.66" transform="translate(5053.95 2914.64)" xlink:href="#_КРУ"/>
         <use width="260.26" height="132.66" transform="translate(5054.01 3907.32)" xlink:href="#_КРУ"/>
       </g>
-      <g id="_синий" data-name="синий">
+      <g id="_синий" data-name="синий" color='#0092ff'>
         <use width="260.26" height="132.66" transform="translate(2326.46 3265.11)" xlink:href="#_КРУ"/>
         <use width="260.26" height="132.66" transform="translate(2326.19 4202.61)" xlink:href="#_КРУ"/>
         <use width="260.26" height="132.66" transform="translate(5981.07 5033.1)" xlink:href="#_КРУ"/>
@@ -2128,18 +2141,18 @@
   <g id="_таблички" data-name="таблички">
     <g id="_1_сепараторы" data-name="1 сепараторы">
       <g id="_корпус" data-name="корпус">
-        <line class="cls-50" x1="82.99" y1="1627.48" x2="2310.92" y2="1627.48"/>
-        <line class="cls-50" x1="82.99" y1="1762.2" x2="2310.92" y2="1762.2"/>
-        <line class="cls-50" x1="82.99" y1="1912" x2="2310.92" y2="1912"/>
-        <line class="cls-50" x1="82.99" y1="2055.27" x2="2310.92" y2="2055.27"/>
-        <rect class="cls-47" x="82.99" y="1323.52" width="2227.94" height="877.35"/>
-        <rect class="cls-151" x="82.99" y="1323.52" width="2227.94" height="158.49"/>
-        <line class="cls-53" x1="1653.79" y1="1323.52" x2="1653.79" y2="2200.87"/>
+        <line class="cls-50" x1="82.99" y1="1627.48" x2="2400" y2="1627.48"/>
+        <line class="cls-50" x1="82.99" y1="1762.2"  x2="2400" y2="1762.2"/>
+        <line class="cls-50" x1="82.99" y1="1912"    x2="2400" y2="1912"/>
+        <line class="cls-50" x1="82.99" y1="2055.27" x2="2400" y2="2055.27"/>
+        <rect class="cls-47"  x="82.99" y="1323.52" width="2320" height="877.35"/>
+        <rect class="cls-151" x="82.99" y="1323.52" width="2320" height="158.49"/>
+        <line class="cls-53" x1="1830" y1="1323.52" x2="1830" y2="2200.87"/>
       </g>
       <g id="_текст" data-name="текст">
         <g id="_заголовок" data-name="заголовок">
           <text class="cls-217" transform="translate(114 1446)"><tspan>Сепараторы 1-й ступени</tspan></text>
-          <text class="cls-218" transform="translate(1717 1446)"><tspan>Значения</tspan></text>
+          <text class="cls-218" transform="translate(1860 1446)"><tspan>Значения</tspan></text>
         </g>
         <g id="_параметры" data-name="параметры">
           <text class="cls-217" transform="translate(114 1593)"><tspan>Расход нефти, м<tspan class="cls-222">3</tspan>/сут</tspan></text>
@@ -2149,27 +2162,27 @@
           <text class="cls-217" transform="translate(114 2164)"><tspan>Уровень ж-ти в С-1/2, мм (факт)</tspan></text>
         </g>
         <g id="_значения" data-name="значения">
-          <text id='oilСonsumption' class="cls-217" transform="translate(1717 1593)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(1717 1731)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(1717 1876)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(1717 2020)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(1717 2164)"><tspan>0</tspan></text>
+          <text id='oilСonsumption' class="cls-217" transform="translate(1860 1593)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(1860 1731)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(1860 1876)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(1860 2020)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(1860 2164)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
     <g id="_Расход_газа" data-name="Расход газа">
       <g id="_корпус-2" data-name="корпус">
-        <line class="cls-114" x1="9471.31" y1="2439.74" x2="11777.64" y2="2439.74"/>
-        <line class="cls-114" x1="9471.31" y1="2574.46" x2="11777.64" y2="2574.46"/>
-        <line class="cls-114" x1="9471.31" y1="2724.26" x2="11777.64" y2="2724.26"/>
-        <line class="cls-114" x1="9471.31" y1="2867.53" x2="11777.64" y2="2867.53"/>
-        <rect class="cls-112" x="9471.31" y="2135.79" width="2306.33" height="877.35"/>
-        <rect class="cls-20" x="9471.31" y="2135.79" width="2306.33" height="158.49"/>
-        <line class="cls-121" x1="11120.51" y1="2135.79" x2="11120.51" y2="3013.13"/>
+        <line class="cls-114" x1="9471.31" y1="2439.74" x2="11920" y2="2439.74"/>
+        <line class="cls-114" x1="9471.31" y1="2574.46" x2="11920" y2="2574.46"/>
+        <line class="cls-114" x1="9471.31" y1="2724.26" x2="11920" y2="2724.26"/>
+        <line class="cls-114" x1="9471.31" y1="2867.53" x2="11920" y2="2867.53"/>
+        <rect class="cls-112" x="9471.31" y="2135.79" width="2450" height="877.35"/>
+        <rect class="cls-20"  x="9471.31" y="2135.79" width="2450" height="158.49"/>
+        <line class="cls-121" x1="11350" y1="2135.79" x2="11350" y2="3013.13"/>
       </g>
       <g id="_текст-2" data-name="текст">
         <g id="_заголовок-2" data-name="заголовок">
-          <text class="cls-213" transform="translate(11190 2252)"><tspan>Значения</tspan></text>
+          <text class="cls-213" transform="translate(11380 2252)"><tspan>Значения</tspan></text>
           <text class="cls-213" transform="translate(9500 2252)"><tspan>Расход газа, тыс. м<tspan class="cls-222">3</tspan>/сут (н.у.)</tspan></text>
         </g>
         <g id="_параметры-2" data-name="параметры">
@@ -2180,25 +2193,25 @@
           <text class="cls-217" transform="translate(9500 2975)"><tspan>На дежурную горелку СФУ (факт)</tspan></text>
         </g>
         <g id="_значения-2" data-name="значения">
-          <text class="cls-217" transform="translate(11190 2405)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(11190 2544)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(11190 2688)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(11190 2824)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(11190 2975)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(11380 2405)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(11380 2544)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(11380 2688)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(11380 2824)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(11380 2975)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
     <g id="_расход_газа_1" data-name="расход газа 1">
       <g id="_корпус-3" data-name="корпус">
-        <line class="cls-115" x1="9754.54" y1="1597.04" x2="12092.56" y2="1597.04"/>
-        <line class="cls-115" x1="9754.54" y1="1731.75" x2="12092.56" y2="1731.75"/>
-        <rect class="cls-122" x="9754.54" y="1293.08" width="2338.01" height="588.48"/>
-        <rect class="cls-19" x="9754.54" y="1293.08" width="2338.01" height="158.49"/>
-        <line class="cls-115" x1="11435.43" y1="1293.08" x2="11435.43" y2="1881.55"/>
+        <line class="cls-115" x1="9754.54" y1="1597.04" x2="12250" y2="1597.04"/>
+        <line class="cls-115" x1="9754.54" y1="1731.75" x2="12250" y2="1731.75"/>
+        <rect class="cls-122" x="9754.54" y="1293.08" width="2500" height="588.48"/>
+        <rect class="cls-19"  x="9754.54" y="1293.08" width="2500" height="158.49"/>
+        <line class="cls-115" x1="11680" y1="1293.08" x2="11680" y2="1881.55"/>
       </g>
       <g id="_текст-3" data-name="текст">
         <g id="_заголовок-3" data-name="заголовок">
-          <text class="cls-213" transform="translate(11495 1416)"><tspan>Значения</tspan></text>
+          <text class="cls-213" transform="translate(11710 1416)"><tspan>Значения</tspan></text>
           <text class="cls-213" transform="translate(9785 1416)"><tspan>Расход газа, тыс. м<tspan class="cls-222">3</tspan>/сут (н. у.)</tspan></text>
         </g>
         <g id="_параметры-3" data-name="параметры">
@@ -2207,24 +2220,24 @@
           <text class="cls-217" transform="translate(9785 1846)"><tspan>На дежурную горелку УНРА (факт)</tspan></text>
         </g>
         <g id="_значения-3" data-name="значения">
-          <text class="cls-217" transform="translate(11495 1562)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(11494 1700)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(11495 1846)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(11710 1562)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(11710 1700)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(11710 1846)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
     <g id="_бкнс" data-name="бкнс">
       <g id="_корпус-4" data-name="корпус">
-        <line class="cls-102" x1="9174.67" y1="5075.64" x2="11481" y2="5075.64"/>
-        <line class="cls-102" x1="9174.67" y1="5210.36" x2="11481" y2="5210.36"/>
-        <line class="cls-102" x1="9174.67" y1="5360.16" x2="11481" y2="5360.16"/>
-        <rect class="cls-97" x="9174.67" y="4771.68" width="2306.33" height="731.75"/>
-        <rect class="cls-9" x="9174.67" y="4771.68" width="2306.33" height="158.49"/>
-        <line class="cls-102" x1="10823.87" y1="4771.68" x2="10823.87" y2="5503.43"/>
+        <line class="cls-102" x1="9174.67" y1="5075.64" x2="11580" y2="5075.64"/>
+        <line class="cls-102" x1="9174.67" y1="5210.36" x2="11580" y2="5210.36"/>
+        <line class="cls-102" x1="9174.67" y1="5360.16" x2="11580" y2="5360.16"/>
+        <rect class="cls-97" x="9174.67" y="4771.68" width="2400" height="731.75"/>
+        <rect class="cls-9"  x="9174.67" y="4771.68" width="2400" height="158.49"/>
+        <line class="cls-102" x1="11000" y1="4771.68" x2="11000" y2="5503.43"/>
       </g>
       <g id="_текст-4" data-name="текст">
         <g id="_заголовок-4" data-name="заголовок">
-          <text class="cls-217" transform="translate(10889 4896)"><tspan>Значения</tspan></text>
+          <text class="cls-217" transform="translate(11030 4896)"><tspan>Значения</tspan></text>
           <text class="cls-217" transform="translate(9206 4896)"><tspan>БКНС</tspan></text>
         </g>
         <g id="_параметры-4" data-name="параметры">
@@ -2234,25 +2247,25 @@
           <text class="cls-217" transform="translate(9206 5467)"><tspan>Давление на выходе, МПа (факт)</tspan></text>
         </g>
         <g id="_значения-4" data-name="значения">
-          <text class="cls-217" transform="translate(10889 5041)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(10889 5180)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(10889 5324)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(10889 5467)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(11030 5041)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(11030 5180)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(11030 5324)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(11030 5467)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
     <g id="_син_цппн-2" data-name="син цппн-2">
       <g id="_корпус-5" data-name="корпус">
-        <line class="cls-102" x1="8414.13" y1="5958.82" x2="10720.46" y2="5958.82"/>
-        <line class="cls-102" x1="8414.13" y1="6093.54" x2="10720.46" y2="6093.54"/>
-        <rect class="cls-106" x="8414.13" y="5654.87" width="2306.33" height="588.48"/>
-        <rect class="cls-9" x="8414.13" y="5654.87" width="2306.33" height="158.49"/>
-        <line class="cls-102" x1="10063.33" y1="5654.87" x2="10063.33" y2="6243.34"/>
+        <line class="cls-102" x1="8414.13" y1="5958.82" x2="10860" y2="5958.82"/>
+        <line class="cls-102" x1="8414.13" y1="6093.54" x2="10860" y2="6093.54"/>
+        <rect class="cls-106" x="8414.13" y="5654.87" width="2450" height="588.48"/>
+        <rect class="cls-9"   x="8414.13" y="5654.87" width="2450" height="158.49"/>
+        <line class="cls-102" x1="10260" y1="5654.87" x2="10260" y2="6243.34"/>
       </g>
       <g id="_текст-5" data-name="текст">
         <g id="_заголовок-5" data-name="заголовок">
           <text class="cls-217" transform="translate(8445 5780)"><tspan>ЦППН-2</tspan></text>
-          <text class="cls-217" transform="translate(10156 5780)"><tspan>Значения</tspan></text>
+          <text class="cls-217" transform="translate(10300 5780)"><tspan>Значения</tspan></text>
         </g>
         <g id="_параметры-5" data-name="параметры">
           <text class="cls-217" transform="translate(8445 5924)"><tspan>Давление на выходе, МПа</tspan></text>
@@ -2260,75 +2273,75 @@
           <text class="cls-217" transform="translate(8445 6207)"><tspan>Расход воды, м3/сут</tspan></text>
         </g>
         <g id="_значения-5" data-name="значения">
-          <text class="cls-217" transform="translate(10156 5924)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(10156 6062)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(10156 6207)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(10300 5924)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(10300 6062)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(10300 6207)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
     <g id="_желт_цппн-2" data-name="желт цппн-2">
       <g id="_корпус-6" data-name="корпус">
-        <line class="cls-174" x1="6632.34" y1="6758.82" x2="8938.66" y2="6758.82"/>
-        <rect class="cls-175" x="6632.34" y="6454.87" width="2306.33" height="438.67"/>
-        <rect class="cls-44" x="6632.34" y="6454.87" width="2306.33" height="158.49"/>
-        <line class="cls-174" x1="8281.53" y1="6454.87" x2="8281.53" y2="6893.54"/>
+        <line class="cls-174" x1="6632.34" y1="6758.82" x2="9030" y2="6758.82"/>
+        <rect class="cls-175" x="6632.34" y="6454.87" width="2400" height="438.67"/>
+        <rect class="cls-44"  x="6632.34" y="6454.87" width="2400" height="158.49"/>
+        <line class="cls-174" x1="8450" y1="6454.87" x2="8450" y2="6893.54"/>
       </g>
       <g id="_текст-6" data-name="текст">
         <g id="_заголовок-6" data-name="заголовок">
           <text class="cls-217" transform="translate(6663 6580)"><tspan>ЦППН-2</tspan></text>
-          <text class="cls-217" transform="translate(8352 6580)"><tspan>Значения</tspan></text>
+          <text class="cls-217" transform="translate(8480 6580)"><tspan>Значения</tspan></text>
         </g>
         <g id="_параметры-6" data-name="параметры">
           <text class="cls-217" transform="translate(6663 6724)"><tspan>Расход нефти, т/сут (факт)</tspan></text>
           <text class="cls-217" transform="translate(6663 6862)"><tspan>Давление на выходе, МПа (факт)</tspan></text>
         </g>
         <g id="_значения-6" data-name="значения">
-          <text class="cls-217" transform="translate(8352 6724)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(8352 6862)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(8480 6724)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(8480 6862)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
     <g id="_син_резервуар" data-name="син резервуар">
       <g id="_корпус-7" data-name="корпус">
-        <line class="cls-101" x1="6632.34" y1="7940.28" x2="9452.96" y2="7940.28"/>
-        <rect class="cls-108" x="6632.34" y="7636.32" width="2820.62" height="438.67"/>
-        <rect class="cls-11" x="6632.34" y="7636.32" width="2820.62" height="158.49"/>
-        <line class="cls-101" x1="8795.83" y1="7636.32" x2="8795.83" y2="8075"/>
+        <line class="cls-101" x1="6632.34" y1="7940.28" x2="9590" y2="7940.28"/>
+        <rect class="cls-108" x="6632.34" y="7636.32" width="2960" height="438.67"/>
+        <rect class="cls-11"  x="6632.34" y="7636.32" width="2960" height="158.49"/>
+        <line class="cls-101" x1="9000" y1="7636.32" x2="9000" y2="8075"/>
       </g>
       <g id="_текст-7" data-name="текст">
         <g id="_заголовок-7" data-name="заголовок">
           <text class="cls-217" transform="translate(6656 7760)"><tspan>Резервуары вертикальные стальные (вода)</tspan></text>
-          <text class="cls-217" transform="translate(8868 7760)"><tspan>Значения</tspan></text>
+          <text class="cls-217" transform="translate(9030 7760)"><tspan>Значения</tspan></text>
         </g>
         <g id="_параметры-7" data-name="параметры">
           <text class="cls-217" transform="translate(6656 7894)"><tspan>Расход на входе, м<tspan class="cls-222">3</tspan>/сут (факт)</tspan></text>
           <text class="cls-217" transform="translate(6656 8044)"><tspan>Расход на входе, м<tspan class="cls-222">3</tspan>/сут</tspan></text>
         </g>
         <g id="_значения-7" data-name="значения">
-          <text class="cls-217" transform="translate(8868 7894)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(8868 8044)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(9030 7894)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(9030 8044)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
     <g id="_жел_резервуар" data-name="жел резервуар">
       <g id="_корпус-8" data-name="корпус">
-        <line class="cls-189" x1="6632.34" y1="7374.59" x2="9452.96" y2="7374.59"/>
-        <rect class="cls-176" x="6632.34" y="7070.63" width="2820.62" height="438.67"/>
-        <rect class="cls-41" x="6632.34" y="7070.63" width="2820.62" height="158.49"/>
-        <line class="cls-189" x1="8795.83" y1="7070.63" x2="8795.83" y2="7509.31"/>
+        <line class="cls-189" x1="6632.34" y1="7374.59" x2="9630" y2="7374.59"/>
+        <rect class="cls-176" x="6632.34" y="7070.63" width="3000" height="438.67"/>
+        <rect class="cls-41"  x="6632.34" y="7070.63" width="3000" height="158.49"/>
+        <line class="cls-189" x1="9050" y1="7070.63" x2="9050" y2="7509.31"/>
       </g>
       <g id="_текст-8" data-name="текст">
         <g id="_заголовок-8" data-name="заголовок">
           <text class="cls-217" transform="translate(6656 7195)"><tspan>Резервуары вертикальные стальные (нефть)</tspan></text>
-          <text class="cls-217" transform="translate(8855 7195)"><tspan>Значения</tspan></text>
+          <text class="cls-217" transform="translate(9080 7195)"><tspan>Значения</tspan></text>
         </g>
         <g id="_параметры-8" data-name="параметры">
           <text class="cls-217" transform="translate(6656 7340)"><tspan>Расход на входе, м<tspan class="cls-222">3</tspan>/сут (факт)</tspan></text>
           <text class="cls-217" transform="translate(6656 7478)"><tspan>Расход на входе, м<tspan class="cls-222">3</tspan>/сут</tspan></text>
         </g>
         <g id="_значения-8" data-name="значения">
-          <text class="cls-217" transform="translate(8855 7340)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(8855 7478)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(9080 7340)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(9080 7478)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
@@ -2340,12 +2353,12 @@
         <line class="cls-105" x1="1877.64" y1="7805.33" x2="4075.58" y2="7805.33"/>
         <rect class="cls-107" x="1877.64" y="7073.58" width="2197.94" height="877.35"/>
         <rect class="cls-7" x="1877.64" y="7073.58" width="2197.94" height="158.49"/>
-        <line class="cls-105" x1="3418.45" y1="7073.58" x2="3418.45" y2="7950.93"/>
+        <line class="cls-105" x1="3500" y1="7073.58" x2="3500" y2="7950.93"/>
       </g>
       <g id="_текст-9" data-name="текст">
         <g id="_заголовок-9" data-name="заголовок">
           <text class="cls-217" transform="translate(1908 7196)"><tspan>Отстойники воды</tspan></text>
-          <text class="cls-217" transform="translate(3486 7196)"><tspan>Значения</tspan></text>
+          <text class="cls-217" transform="translate(3530 7196)"><tspan>Значения</tspan></text>
         </g>
         <g id="_параметры-9" data-name="параметры">
           <text class="cls-217" transform="translate(1908 7343)"><tspan>Расход воды, м<tspan class="cls-222">3</tspan>/сут</tspan></text>
@@ -2355,27 +2368,27 @@
           <text class="cls-217" transform="translate(1908 7911)"><tspan>Уровень в ОВ-2, мм (факт)</tspan></text>
         </g>
         <g id="_значения-9" data-name="значения">
-          <text class="cls-217" transform="translate(3486 7343)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(3486 7480)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(3486 7626)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(3486 7770)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(3486 7911)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(3530 7343)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(3530 7480)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(3530 7626)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(3530 7770)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(3530 7911)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
     <g id="_нефтенасосная" data-name="нефтенасосная">
       <g id="_корпусё" data-name="корпусё">
-        <line class="cls-174" x1="112.86" y1="6520.11" x2="2419.18" y2="6520.11"/>
-        <line class="cls-174" x1="112.86" y1="6654.82" x2="2419.18" y2="6654.82"/>
-        <line class="cls-174" x1="112.86" y1="6804.63" x2="2419.18" y2="6804.63"/>
-        <rect class="cls-184" x="112.86" y="6216.15" width="2306.33" height="731.75"/>
-        <rect class="cls-44" x="112.86" y="6216.15" width="2306.33" height="158.49"/>
-        <line class="cls-174" x1="1762.05" y1="6216.15" x2="1762.05" y2="6947.9"/>
+        <line class="cls-174" x1="112.86" y1="6520.11" x2="2520" y2="6520.11"/>
+        <line class="cls-174" x1="112.86" y1="6654.82" x2="2520" y2="6654.82"/>
+        <line class="cls-174" x1="112.86" y1="6804.63" x2="2520" y2="6804.63"/>
+        <rect class="cls-184" x="112.86" y="6216.15" width="2400" height="731.75"/>
+        <rect class="cls-44"  x="112.86" y="6216.15" width="2400" height="158.49"/>
+        <line class="cls-174" x1="1930" y1="6216.15" x2="1930" y2="6947.9"/>
       </g>
       <g id="_текст-10" data-name="текст">
         <g id="_заголовок-10" data-name="заголовок">
           <text class="cls-217" transform="translate(144 6340)"><tspan>Нефтенасосная</tspan></text>
-          <text class="cls-217" transform="translate(1835 6340)"><tspan>Значения</tspan></text>
+          <text class="cls-217" transform="translate(1960 6340)"><tspan>Значения</tspan></text>
         </g>
         <g id="_параметры-10" data-name="параметры">
           <text class="cls-217" transform="translate(144 6485)"><tspan>Давление на входе, МПа</tspan></text>
@@ -2384,27 +2397,27 @@
           <text class="cls-217" transform="translate(144 6912)"><tspan>Давление на выходе, МПа (факт)</tspan></text>
         </g>
         <g id="_значения-10" data-name="значения">
-          <text class="cls-217" transform="translate(1835 6485)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(1835 6624)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(1835 6770)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(1835 6912)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(1960 6485)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(1960 6624)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(1960 6770)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(1960 6912)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
     <g id="_2_сепараторы" data-name="2 сепараторы">
       <g id="_корпус-10" data-name="корпус">
-        <line class="cls-48" x1="2647.49" y1="491.68" x2="4845.43" y2="491.68"/>
-        <line class="cls-48" x1="2647.49" y1="626.39" x2="4845.43" y2="626.39"/>
-        <line class="cls-48" x1="2647.49" y1="776.2" x2="4845.43" y2="776.2"/>
-        <line class="cls-48" x1="2647.49" y1="919.46" x2="4845.43" y2="919.46"/>
-        <rect class="cls-49" x="2647.49" y="187.72" width="2197.94" height="877.35"/>
-        <rect class="cls-152" x="2647.49" y="187.72" width="2197.94" height="158.49"/>
-        <line class="cls-48" x1="4188.3" y1="187.72" x2="4188.3" y2="1065.06"/>
+        <line class="cls-48" x1="2647.49" y1="491.68" x2="5000" y2="491.68"/>
+        <line class="cls-48" x1="2647.49" y1="626.39" x2="5000" y2="626.39"/>
+        <line class="cls-48" x1="2647.49" y1="776.2"  x2="5000" y2="776.2"/>
+        <line class="cls-48" x1="2647.49" y1="919.46" x2="5000" y2="919.46"/>
+        <rect class="cls-49" x="2647.49" y="187.72" width="2350" height="877.35"/>
+        <rect class="cls-152" x="2647.49" y="187.72" width="2350" height="158.49"/>
+        <line class="cls-48" x1="4400" y1="187.72" x2="4400" y2="1065.06"/>
       </g>
       <g id="_текст-11" data-name="текст">
         <g id="_заголовок-11" data-name="заголовок">
           <text class="cls-217" transform="translate(2678 311)"><tspan>Сепараторы 2-й ступени</tspan></text>
-          <text class="cls-217" transform="translate(4270 311)"><tspan>Значения</tspan></text>
+          <text class="cls-217" transform="translate(4430 311)"><tspan>Значения</tspan></text>
         </g>
         <g id="_параметры-11" data-name="параметры">
           <text class="cls-217" transform="translate(2678 455)"> <tspan>Расход нефти, м<tspan class="cls-222">3</tspan>/сут</tspan></text>
@@ -2414,28 +2427,28 @@
           <text class="cls-217" transform="translate(2678 1027)"><tspan>Уровень ж-ти в С-2/2, мм (факт)</tspan></text>
         </g>
         <g id="_значения-11" data-name="значения">
-          <text class="cls-217" transform="translate(4270 455)"> <tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(4270 595)"> <tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(4270 740)"> <tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(4270 884)"> <tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(4270 1027)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(4430 455)"> <tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(4430 595)"> <tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(4430 740)"> <tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(4430 884)"> <tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(4430 1027)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
     <g id="_разход_газа" data-name="разход газа">
       <g id="_корпус-11" data-name="корпус">
-        <line class="cls-116" x1="8897.42" y1="470.55" x2="10988.98" y2="470.55"/>
-        <line class="cls-116" x1="8897.42" y1="605.27" x2="10988.98" y2="605.27"/>
-        <line class="cls-116" x1="8897.42" y1="755.07" x2="10988.98" y2="755.07"/>
-        <rect class="cls-119" x="8897.42" y="166.59" width="2091.56" height="731.75"/>
-        <rect class="cls-17" x="8897.42" y="166.59" width="2091.56" height="158.49"/>
-        <line class="cls-116" x1="10331.85" y1="166.59" x2="10331.85" y2="898.34"/>
+        <line class="cls-116" x1="8897.42" y1="470.55" x2="11100" y2="470.55"/>
+        <line class="cls-116" x1="8897.42" y1="605.27" x2="11100" y2="605.27"/>
+        <line class="cls-116" x1="8897.42" y1="755.07" x2="11100" y2="755.07"/>
+        <rect class="cls-119" x="8897.42" y="166.59" width="2200" height="731.75"/>
+        <rect class="cls-17"  x="8897.42" y="166.59" width="2200" height="158.49"/>
+        <line class="cls-116" x1="10520" y1="166.59" x2="10520" y2="898.34"/>
       </g>
       <g id="_текст-12" data-name="текст">
 
         <g id="_заголовок-12" data-name="заголовок">
           <text class="cls-213" transform="translate(8928 291)"><tspan>Расход газа, тыс. м<tspan class="cls-222">3</tspan>/сут (н. у.)</tspan></text>
-          <text class="cls-213" transform="translate(10400 291)"><tspan>Значения</tspan></text>
+          <text class="cls-213" transform="translate(10550 291)"><tspan>Значения</tspan></text>
         </g>
         <g id="_параметры-12" data-name="параметры">
           <text class="cls-217" transform="translate(8928 435)"><tspan>На ГПЭС (факт)</tspan></text>
@@ -2444,10 +2457,10 @@
           <text class="cls-217" transform="translate(8928 862)"><tspan>На УУПЛСиПВ (факт)</tspan></text>
         </g>
         <g id="_значения-12" data-name="значения">
-          <text class="cls-217" transform="translate(10400 435)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(10400 574)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(10400 720)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(10400 862)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(10550 435)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(10550 574)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(10550 720)"><tspan>0</tspan></text>
+          <text class="cls-217" transform="translate(10550 862)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>

@@ -9,7 +9,7 @@ export default function BodyScheme() {
 
   return (
     <div className="body-scheme">
-      <button onClick={() => setCount(count + 1)}>+</button>
+      <button className='table_plus' onClick={() => setCount(count + 1)}>+</button>
       <div className="zoom-button">
         <button
           className="zoomIn-button"
