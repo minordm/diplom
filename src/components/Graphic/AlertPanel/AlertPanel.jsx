@@ -1,7 +1,6 @@
 import "./AlertPanel.css";
 
-function AlertPanel() {
-
+export default function AlertPanel() {
 
   return (
     <div className="main">
@@ -17,4 +16,3 @@ function AlertPanel() {
   );
 }
 
-export default AlertPanel;

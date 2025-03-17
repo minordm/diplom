@@ -1,7 +1,7 @@
-// import cn from "classnames";
 import "./AlertItem.css";
 
-function AlertItem({name, datatime, message}) {
+export default function AlertItem({name, datatime, message}) {
+
   return (
     <div className="alert-block">
       <div className="alert-head">
@@ -12,5 +12,3 @@ function AlertItem({name, datatime, message}) {
     </div>
   );
 }
-
-export default AlertItem;

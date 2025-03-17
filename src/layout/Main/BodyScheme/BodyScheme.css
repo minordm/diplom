@@ -1,25 +1,17 @@
 .body-scheme {
+    flex: 1;
     background: rgb(12, 32, 57);
-    /* width: 1472px; */
-    width: 100vh;
-    /* height: 100vh; */
-
-    /* height: 880px; */
-    /* height: 100vh; */
+    width: 100%;
     border: 1px solid rgb(86, 160, 207);
     border-top: 3px solid rgb(86, 160, 207);
+    position: relative;
 }
 
 .scheme1 {
-    width: 100vh;
+    /* width: 100vh; */
+    width: 100%;
 }
 
 use:hover {
     filter: brightness(0.3) sepia(0.5) opacity(60%);
-}
-
-.zoom-button {
-    /* padding: 4px 2px; */
-    /* background: gray; */
-    background-color: var(--color-gray-800)
 }

@@ -1,8 +1,7 @@
 import "./AlertList.css";
-
 import AlertItem from "../AlertItem/AlertItem";
 
-function AlertList() {
+export default function AlertList() {
   const data = [
     {
       name: "H-1",
@@ -82,5 +81,3 @@ function AlertList() {
     </div>
   );
 }
-
-export default AlertList;

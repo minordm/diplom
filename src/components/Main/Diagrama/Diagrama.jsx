@@ -1,6 +1,7 @@
 import "./Diagrama.css";
 
-function Diagrama() {
+export default function Diagrama() {
+  
   return (
     <div className="diagrama-main">
       <div className="diagrama-head">ПОЛЕЗНОЕ ИСПОЛЬЗОВАНИЕ ПНГ</div>
@@ -8,5 +9,3 @@ function Diagrama() {
     </div>
   );
 }
-
-export default Diagrama;

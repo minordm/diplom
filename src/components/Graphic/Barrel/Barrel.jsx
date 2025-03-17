@@ -1,22 +1,6 @@
 import "./Barrel.css";
-// import { useEffect, useState } from "react";
 
-function Barrel() {
-  // const [oilValues, setOilValues] = useState("");
-  // const [gasValues, setGasValues] = useState("");
-
-  // useEffect(() => {
-  //   const oilAnimate = document.querySelector("#oil-rect animate");
-  //   const gasAnimate = document.querySelector("#gas-rect animate");
-
-  //   if (oilAnimate) {
-  //     oilAnimate.setAttribute("values", oilValues);
-  //   }
-
-  //   if (gasAnimate) {
-  //     gasAnimate.setAttribute("values", gasValues);
-  //   }
-  // }, [oilValues, gasValues]);
+export default function Barrel() {
 
   return (
     <div className="barrel">
@@ -52,19 +36,6 @@ function Barrel() {
           </div>
         </div>
       </div>
-
-      {/* <div>
-        <p>Oil Values: {oilValues}</p>
-        <p>Gas Values: {gasValues}</p>
-        <button onClick={() => setOilValues("100;150;100")}>
-          Change Oil Values
-        </button>
-        <button onClick={() => setGasValues("30;70;30")}>
-          Change Gas Values
-        </button>
-      </div> */}
     </div>
   );
 }
-
-export default Barrel;

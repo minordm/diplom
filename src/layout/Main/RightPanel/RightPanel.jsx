@@ -1,8 +1,5 @@
-
 import "./RightPanel.css";
 
-function RightPanel({ children }) {
+export default function RightPanel({ children }) {
   return <div className="right-panel">{children}</div>;
 }
-
-export default RightPanel;

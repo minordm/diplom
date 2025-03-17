@@ -1,8 +1,6 @@
 .barrel {
     width: 520px;
     height: 190px;
-    /* box-sizing: border-box; */
-    /* outline: 1px solid rgb(86, 160, 207); */
     border-top: 3px solid rgb(86, 160, 207);
 }
 
@@ -12,7 +10,7 @@
     height: 32px;
     display: flex;
     align-items: center;
-    font-size: 14;
+    font-size: 14px;
     font-weight: bold;
     color: white;
 }
@@ -41,6 +39,7 @@
     justify-content: center;
     flex-direction: column;
 }
+
 .barrel__level_text, .barrel__level_text1 {
     display: flex;
     justify-items: end;
@@ -63,9 +62,8 @@
 }
 
 .barrel__img_svg {
-    /* width: 158px; */
+    width: 158px;
     height: 158px;
-    position: relative;
 }
 
 .barrel__level {
@@ -74,7 +72,6 @@
     flex-direction: column;
     padding: 10px;
 }
-
 
 .barrel__level_gas {
     width: 20px;
