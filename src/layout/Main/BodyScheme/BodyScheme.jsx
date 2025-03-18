@@ -3,6 +3,15 @@ import { ReactSVG } from "react-svg";
 import { useRef, useState } from "react";
 import { TransformComponent, TransformWrapper } from "react-zoom-pan-pinch";
 
+function handleClick(event) {
+  if (event.target.tagName === "use") {
+    const url = event.target.getAttribute("data-url");
+    if (url) {
+      window.location.href = url; // Переход на другую страницу
+    }
+  }
+}
+
 export default function BodyScheme() {
   const [count, setCount] = useState(0);
   const tranformRef = useRef(null);
@@ -40,6 +49,7 @@ export default function BodyScheme() {
           <ReactSVG
             src="./scheme2-01-1.svg"
             className="scheme1"
+            onClick={handleClick} 
             beforeInjection={(svg) => {
               const textElement = svg.querySelector("#oilСonsumption");
               if (textElement) {

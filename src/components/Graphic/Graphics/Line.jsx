@@ -1,6 +1,6 @@
 import {
   Chart as ChartJS,
-  TimeScale, // time scale
+  TimeScale, // (x) time scale 
   LinearScale, // y
   PointElement, // всплывающая подсказка для элемента
   LineElement,
@@ -23,7 +23,7 @@ ChartJS.register(
   Title,
   Tooltip,
   Legend,
-  zoomPlugin // регистрируем плагин
+  zoomPlugin
 );
 
 const parsedData = lineChartData.map((data) => ({
@@ -91,19 +91,20 @@ const options = {
 
 export const LineGraph = () => {
   return (
-      <Line
-        data={{
-          labels: parsedData.map((data) => data.label), // преобразуем в формат времени
-          datasets: [
-            {
-              label: "Наличие воды",
-              data: parsedData.map((data) => data.value),
-              borderColor: "rgb(86, 160, 207)",
-            },
-          ],
-        }}
-        options={options}
-      />
+    <Line
+      data={{
+        labels: parsedData.map((data) => data.label), // преобразуем в формат времени
+        datasets: [
+          {
+            label: "Наличие воды",
+            data: parsedData.map((data) => data.value),
+            borderColor: "rgb(86, 160, 207)",
+            backgroundColor: "rgb(86, 160, 207)", // Цвет заливки под графиком
+            fill: true, // Включаем заливку под графиком
+          },
+        ],
+      }}
+      options={options}
+    />
   );
-  // return <Line data={lineChartData} options={options} />; // для данных которые внутри Line.jsx
 };

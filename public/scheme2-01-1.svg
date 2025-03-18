@@ -2094,9 +2094,9 @@
       <use width="731.94" height="289.46" transform="translate(3145.54 2007.52)" xlink:href="#_пбт"/>
     </g>
     <g id="_удх_бдр-3" data-name="удх/бдр">
-      <use width="543" height="316.73" transform="translate(328 2780.24)" xlink:href="#_удх_бдр"/>
-      <use width="543" height="316.73" transform="translate(666.78 4351.95)" xlink:href="#_удх_бдр"/>
-      <use width="543" height="316.73" transform="translate(6607.37 4671.59)" xlink:href="#_удх_бдр"/>
+      <use width="543" height="316.73" transform="translate(328 2780.24)" xlink:href="#_удх_бдр" data-url="/graphic" class="clickable" />
+      <use width="543" height="316.73" transform="translate(666.78 4351.95)" xlink:href="#_удх_бдр" data-url="/graphic" class="clickable" />
+      <use width="543" height="316.73" transform="translate(6607.37 4671.59)" xlink:href="#_удх_бдр" data-url="/graphic" class="clickable"/>
     </g>
     <g id="_гс" data-name="гс">
       <use width="165.55" height="449.15" transform="translate(6663.67 1475.17)" xlink:href="#_ГС"/>
