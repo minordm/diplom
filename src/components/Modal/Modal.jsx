@@ -1,14 +1,40 @@
 import "./Modal.css";
 
-export default function Modal({ children, onClose }) {
+const Modal = ({active, setActive, children }) => {
+
   return (
-    <div className="modal-overlay" onClick={onClose}>
-      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+    <div
+      className={active ? "modal active" : "modal"}
+      onClick={() => setActive(false)}
+    >
+      <div
+        className={active ? "modal-content active" : "modal-content"}
+        onClick={(e) => e.stopPropagation()}
+      >
         {children}
-        <button className="modal-close" onClick={onClose}>
-          ✖
-        </button>
+        <button onClick={() => setActive(false)}>x</button>
       </div>
     </div>
   );
 }
+
+export default Modal;
+
+
+
+
+// import "./Modal.css";
+
+// const Modal = ({active, setActive, children }) => {
+
+//   return (
+//     <div className={active ? 'modal active' : 'modal'} onClick={() => setActive(false)}>
+//       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+//         {children}
+//         <button className="modal-close" onClick={onClose}>✖</button>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default Modal;

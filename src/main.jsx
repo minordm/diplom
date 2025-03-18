@@ -12,6 +12,7 @@ import AlertList from "./components/Main/AlertList/AlertList";
 // странички
 import Error from "./components/Error/Error.jsx";
 import GraphicPage from './pages/GraphicPage/GraphicPage.jsx';
+import App from './App.jsx';
 
 const router = createBrowserRouter([
   {
@@ -43,6 +44,7 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    {/* <RouterProvider router={router} /> */}
+    <App />
   </StrictMode>
 );

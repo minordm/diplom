@@ -3,18 +3,25 @@ import { ReactSVG } from "react-svg";
 import { useRef, useState } from "react";
 import { TransformComponent, TransformWrapper } from "react-zoom-pan-pinch";
 
-function handleClick(event) {
-  if (event.target.tagName === "use") {
-    const url = event.target.getAttribute("data-url");
-    if (url) {
-      window.location.href = url; // Переход на другую страницу
-    }
-  }
-}
+// function handleClick(event) {
+//   if (event.target.tagName === "use") {
+//     const url = event.target.getAttribute("data-url");
+//     if (url) {
+//       window.location.href = url; // Переход на другую страницу
+//     }
+//   }
+// }
 
-export default function BodyScheme() {
+
+export default function BodyScheme({setIsOpen}) {
   const [count, setCount] = useState(0);
   const tranformRef = useRef(null);
+
+  const handleClick = (event) => {
+    if (event.target.tagName === "use") {
+      setIsOpen(true);
+    }
+  };
 
   return (
     <div className="body-scheme">
@@ -46,6 +53,17 @@ export default function BodyScheme() {
           wrapperStyle={{ width: "100%", height: "100%" }}
           contentStyle={{ width: "100%", height: "100%" }}
         >
+          {/* <ReactSVG
+            src="./scheme2-01-1.svg"
+            className="scheme1"
+            onClick={handleClick} 
+            beforeInjection={(svg) => {
+              const textElement = svg.querySelector("#oilСonsumption");
+              if (textElement) {
+                textElement.textContent = count;
+              }
+            }}
+          /> */}
           <ReactSVG
             src="./scheme2-01-1.svg"
             className="scheme1"
@@ -55,6 +73,11 @@ export default function BodyScheme() {
               if (textElement) {
                 textElement.textContent = count;
               }
+
+              const useElements = svg.querySelectorAll("use");
+              useElements.forEach((el) => {
+                el.addEventListener("click", handleClick);
+              })
             }}
           />
         </TransformComponent>

@@ -2082,21 +2082,21 @@
       <g id="_синий" data-name="синий" color='#0092ff'>
         <use width="260.26" height="132.66" transform="translate(2326.46 3265.11)" xlink:href="#_КРУ"/>
         <use width="260.26" height="132.66" transform="translate(2326.19 4202.61)" xlink:href="#_КРУ"/>
-        <use width="260.26" height="132.66" transform="translate(5981.07 5033.1)" xlink:href="#_КРУ"/>
+        <use width="260.26" height="132.66" transform="translate(5981.07 5033.1)"  xlink:href="#_КРУ"/>
         <use width="260.26" height="132.66" transform="translate(4475.39 3264.74)" xlink:href="#_КРУ"/>
         <use width="260.26" height="132.66" transform="translate(4475.94 4203.21)" xlink:href="#_КРУ"/>
       </g>
     </g>
     <g id="_пбт-2" data-name="пбт">
-      <use width="731.94" height="289.46" transform="translate(4029.26 2007.6)" xlink:href="#_пбт"/>
+      <use width="731.94" height="289.46" transform="translate(4029.26 2007.6)"  xlink:href="#_пбт"/>
       <use width="731.94" height="289.46" transform="translate(4912.29 2007.11)" xlink:href="#_пбт"/>
       <use width="731.94" height="289.46" transform="translate(5794.27 2007.06)" xlink:href="#_пбт"/>
       <use width="731.94" height="289.46" transform="translate(3145.54 2007.52)" xlink:href="#_пбт"/>
     </g>
     <g id="_удх_бдр-3" data-name="удх/бдр">
-      <use width="543" height="316.73" transform="translate(328 2780.24)" xlink:href="#_удх_бдр" data-url="/graphic" class="clickable" />
-      <use width="543" height="316.73" transform="translate(666.78 4351.95)" xlink:href="#_удх_бдр" data-url="/graphic" class="clickable" />
-      <use width="543" height="316.73" transform="translate(6607.37 4671.59)" xlink:href="#_удх_бдр" data-url="/graphic" class="clickable"/>
+      <use width="543" height="316.73" transform="translate(328 2780.24)"     xlink:href="#_удх_бдр" />
+      <use width="543" height="316.73" transform="translate(666.78 4351.95)"  xlink:href="#_удх_бдр" />
+      <use width="543" height="316.73" transform="translate(6607.37 4671.59)" xlink:href="#_удх_бдр" />
     </g>
     <g id="_гс" data-name="гс">
       <use width="165.55" height="449.15" transform="translate(6663.67 1475.17)" xlink:href="#_ГС"/>
@@ -2120,23 +2120,23 @@
     </g>
     <g id="t">
       <use width="541" height="223.6" transform="translate(7917.28 3478.36)" xlink:href="#_Т"/>
-      <use width="541" height="223.6" transform="translate(7917.6 4019.54)" xlink:href="#_Т"/>
+      <use width="541" height="223.6" transform="translate(7917.6 4019.54)"  xlink:href="#_Т"/>
       <use width="541" height="223.6" transform="translate(7918.06 4561.07)" xlink:href="#_Т"/>
     </g>
     <g id="_ов" data-name="ов">
-      <use width="685.24" height="289.46" transform="translate(2895.53 5848.8)" xlink:href="#_ОВ"/>
+      <use width="685.24" height="289.46" transform="translate(2895.53 5848.8)"  xlink:href="#_ОВ"/>
       <use width="685.24" height="289.46" transform="translate(2895.55 6546.67)" xlink:href="#_ОВ"/>
     </g>
     <use width="540" height="498.21" transform="translate(8769.65 1450.85)" xlink:href="#_УНРА"/>
-    <use width="541" height="229.06" transform="translate(1001.7 3352.93)" xlink:href="#_УПОГ"/>
+    <use width="541" height="229.06" transform="translate(1001.7 3352.93)"  xlink:href="#_УПОГ"/>
     <g id="_кружки" data-name="кружки">
-      <circle class="cls-205" cx="8709.15" cy="5122.56" r="87.8"/>
-      <circle class="cls-212" cx="232.58" cy="3476.47" r="99.78"/>
-      <circle class="cls-207" cx="7440.21" cy="1700.31" r="168.4"/>
+      <circle class="cls-205" cx="8709.15" cy="5122.56" r="87.8"  />
+      <circle class="cls-212" cx="232.58"  cy="3476.47" r="99.78" />
+      <circle class="cls-207" cx="7440.21" cy="1700.31" r="168.4" />
     </g>
-    <use width="540" height="424.83" transform="translate(1795.5 5044.96)" xlink:href="#_СИКН"/>
-    <use width="541" height="486.59" transform="translate(3182.56 4623.69)" xlink:href="#_Насос"/>
-    <use width="540" height="689.4" transform="translate(11276.14 3056.59)" xlink:href="#_Колонна"/>
+    <use width="540" height="424.83" transform="translate(1795.5 5044.96)"   xlink:href="#_СИКН"/>
+    <use width="541" height="486.59" transform="translate(3182.56 4623.69)"  xlink:href="#_Насос"/>
+    <use width="540" height="689.4"  transform="translate(11276.14 3056.59)" xlink:href="#_Колонна"/>
   </g>
   <g id="_таблички" data-name="таблички">
     <g id="_1_сепараторы" data-name="1 сепараторы">
