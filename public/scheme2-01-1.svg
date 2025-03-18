@@ -171,7 +171,8 @@
       }
 
       .cls-33 {
-        fill: url(#_Безымянный_градиент_4);
+        /* fill: url(#_Безымянный_градиент_4); */
+        fill: #6b6b6b;
       }
 
       .cls-33, .cls-34, .cls-70, .cls-71, .cls-134, .cls-157 {
@@ -179,7 +180,8 @@
       }
 
       .cls-34 {
-        fill: url(#_Безымянный_градиент_3);
+        /* fill: url(#_Безымянный_градиент_3); */
+        fill: #6b6b6b;
       }
 
       .cls-35, .cls-74 {
@@ -199,15 +201,18 @@
       }
 
       .cls-38 {
-        fill: url(#_Безымянный_градиент_13-2);
+        /* fill: url(#_Безымянный_градиент_13-2); */
+        fill: #505050;
       }
 
       .cls-39 {
-        fill: url(#_Безымянный_градиент_13-3);
+        /* fill: url(#_Безымянный_градиент_13-3); */
+        fill: #505050;
       }
 
       .cls-40 {
-        fill: url(#_Безымянный_градиент_13-4);
+        /* fill: url(#_Безымянный_градиент_13-4); */
+        fill: #505050;
       }
 
       .cls-41, .cls-44, .cls-211, .cls-212 {
@@ -283,15 +288,18 @@
       }
 
       .cls-63 {
-        fill: url(#_Безымянный_градиент_10-4);
+        /* fill: url(#_Безымянный_градиент_10-4); */
+        fill: #989898;
       }
 
       .cls-64 {
-        fill: url(#_Безымянный_градиент_10-2);
+        /* fill: url(#_Безымянный_градиент_10-2); */
+        fill: #989898;
       }
 
       .cls-65 {
-        fill: url(#_Безымянный_градиент_10-3);
+        /* fill: url(#_Безымянный_градиент_10-3); */
+        fill: #989898;
       }
 
       .cls-219 {
@@ -316,11 +324,13 @@
       }
 
       .cls-70 {
-        fill: url(#_Безымянный_градиент_4-3);
+        /* fill: url(#_Безымянный_градиент_4-3); */
+        fill: #6b6b6b;
       }
 
       .cls-71 {
-        fill: url(#_Безымянный_градиент_4-2);
+        /* fill: url(#_Безымянный_градиент_4-2); */
+        fill: #6b6b6b;
       }
 
       .cls-72 {
@@ -328,7 +338,8 @@
       }
 
       .cls-73 {
-        fill: url(#_Безымянный_градиент_5);
+        /* fill: url(#_Безымянный_градиент_5); */
+        fill: #8f8f8f;
       }
 
       .cls-75 {
@@ -340,15 +351,18 @@
       }
 
       .cls-77 {
-        fill: url(#_Безымянный_градиент_8);
+        /* fill: url(#_Безымянный_градиент_8); */
+        fill: #888;
       }
 
       .cls-78 {
-        fill: url(#_Безымянный_градиент_2);
+        /* fill: url(#_Безымянный_градиент_2); */
+        fill: #a9a9a9;
       }
 
       .cls-79 {
-        fill: url(#_Безымянный_градиент_7);
+        /* fill: url(#_Безымянный_градиент_7); */
+        fill: #959595;
       }
 
       .cls-81 {
@@ -502,7 +516,8 @@
       }
 
       .cls-137 {
-        fill: url(#_Безымянный_градиент_10);
+        /* fill: url(#_Безымянный_градиент_10); */
+        fill: #989898;
       }
 
       .cls-138 {
@@ -526,11 +541,13 @@
       }
 
       .cls-145 {
-        fill: url(#_Безымянный_градиент_14);
+        /* fill: url(#_Безымянный_градиент_14); */
+        fill: #a8a8a8;
       }
 
       .cls-146 {
-        fill: url(#_Безымянный_градиент_13);
+        /* fill: url(#_Безымянный_градиент_13); */
+        fill: #505050;
       }
 
       .cls-147 {
@@ -555,31 +572,38 @@
       }
 
       .cls-158 {
-        fill: url(#_Безымянный_градиент_3-2);
+        /* fill: url(#_Безымянный_градиент_3-2); */
+        fill: #6b6b6b;
       }
 
       .cls-159 {
-        fill: url(#_Безымянный_градиент_7-4);
+        /* fill: url(#_Безымянный_градиент_7-4); */
+        fill: #959595;
       }
 
       .cls-160 {
-        fill: url(#_Безымянный_градиент_7-2);
+        /* fill: url(#_Безымянный_градиент_7-2); */
+        fill: #959595;
       }
 
       .cls-161 {
-        fill: url(#_Безымянный_градиент_7-3);
+        /* fill: url(#_Безымянный_градиент_7-3); */
+        fill: #959595;
       }
 
       .cls-162 {
-        fill: url(#_Безымянный_градиент_7-5);
+        /* fill: url(#_Безымянный_градиент_7-5); */
+        fill: #959595;
       }
 
       .cls-163 {
-        fill: url(#_Безымянный_градиент_7-6);
+        /* fill: url(#_Безымянный_градиент_7-6); */
+        fill: #959595;
       }
 
       .cls-164 {
-        fill: url(#_Безымянный_градиент_7-7);
+        /* fill: url(#_Безымянный_градиент_7-7); */
+        fill: #959595;
       }
 
       .cls-165, .cls-195 {
@@ -644,7 +668,7 @@
       }
       
     </style>
-    <linearGradient id="_Безымянный_градиент_8" data-name="Безымянный градиент 8" x1="38.51" y1="16615.95" x2="134.32" y2="16615.95" gradientTransform="translate(0 16833.15) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <!-- <linearGradient id="_Безымянный_градиент_8" data-name="Безымянный градиент 8" x1="38.51" y1="16615.95" x2="134.32" y2="16615.95" gradientTransform="translate(0 16833.15) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#6c6c6c"/>
       <stop offset="0" stop-color="#888"/>
       <stop offset=".02" stop-color="#a8a8a8"/>
@@ -659,8 +683,9 @@
       <stop offset=".68" stop-color="#b6b6b6"/>
       <stop offset=".92" stop-color="gray"/>
       <stop offset="1" stop-color="#6c6c6c"/>
-    </linearGradient>
-    <linearGradient id="_Безымянный_градиент_2" data-name="Безымянный градиент 2" x1="31.28" y1="16762.07" x2="141.54" y2="16762.07" gradientTransform="translate(0 16833.15) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    </linearGradient> -->
+
+    <!-- <linearGradient id="_Безымянный_градиент_2" data-name="Безымянный градиент 2" x1="31.28" y1="16762.07" x2="141.54" y2="16762.07" gradientTransform="translate(0 16833.15) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#999"/>
       <stop offset="0" stop-color="#a9a9a9"/>
       <stop offset=".02" stop-color="#c3c3c3"/>
@@ -670,7 +695,7 @@
       <stop offset=".12" stop-color="#fdfdfd"/>
       <stop offset=".22" stop-color="#fff"/>
       <stop offset="1" stop-color="#999"/>
-    </linearGradient>
+    </linearGradient> -->
     <symbol id="_ГС" data-name="ГС" viewBox="0 0 165.55 449.15">
       <g id="_1" data-name="1">
         <rect class="cls-51" x=".5" y="197.03" width="38.01" height="24.31"/>
@@ -712,17 +737,18 @@
         <rect class="cls-196" x="91.27" y=".5" width="94.14" height="12.64" rx="3" ry="3"/>
       </g>
     </symbol>
-    <linearGradient id="_Безымянный_градиент_3" data-name="Безымянный градиент 3" x1="-257.57" y1="16751.45" x2="-129.17" y2="16751.45" gradientTransform="translate(539 17165.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <!-- <linearGradient id="_Безымянный_градиент_3" data-name="Безымянный градиент 3" x1="-257.57" y1="16751.45" x2="-129.17" y2="16751.45" gradientTransform="translate(539 17165.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fff"/>
       <stop offset="1" stop-color="#6b6b6b"/>
-    </linearGradient>
-    <linearGradient id="_Безымянный_градиент_4" data-name="Безымянный градиент 4" x1="-294.08" y1="16510.88" x2="-201.88" y2="16510.88" gradientTransform="translate(539 17165.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    </linearGradient> -->
+
+    <!-- <linearGradient id="_Безымянный_градиент_4" data-name="Безымянный градиент 4" x1="-294.08" y1="16510.88" x2="-201.88" y2="16510.88" gradientTransform="translate(539 17165.9) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#6b6b6b"/>
       <stop offset=".4" stop-color="#fff"/>
       <stop offset="1" stop-color="#6b6b6b"/>
     </linearGradient>
     <linearGradient id="_Безымянный_градиент_4-2" data-name="Безымянный градиент 4" x1="-464.83" y1="16511.41" x2="-372.63" y2="16511.41" xlink:href="#_Безымянный_градиент_4"/>
-    <linearGradient id="_Безымянный_градиент_4-3" data-name="Безымянный градиент 4" x1="-132.98" x2="-40.78" xlink:href="#_Безымянный_градиент_4"/>
+    <linearGradient id="_Безымянный_градиент_4-3" data-name="Безымянный градиент 4" x1="-132.98" x2="-40.78" xlink:href="#_Безымянный_градиент_4"/> -->
     <symbol id="_Колонна" data-name="Колонна" viewBox="0 0 540 689.4">
       <g>
         <path class="cls-134" d="M432.75,688.78V175.79c0-4.8-3.24-8.61-7.18-8.61h-15.75"/>
@@ -1092,7 +1118,7 @@
         </g>
       </g>
     </symbol>
-    <linearGradient id="_Безымянный_градиент_10" data-name="Безымянный градиент 10" x1="342.64" y1="16423.61" x2="342.64" y2="16618.56" gradientTransform="translate(0 16673.46) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <!-- <linearGradient id="_Безымянный_градиент_10" data-name="Безымянный градиент 10" x1="342.64" y1="16423.61" x2="342.64" y2="16618.56" gradientTransform="translate(0 16673.46) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#6c6c6c"/>
       <stop offset=".13" stop-color="#989898"/>
       <stop offset=".27" stop-color="#bdbdbd"/>
@@ -1107,7 +1133,7 @@
       <stop offset=".95" stop-color="#b3b3b3"/>
       <stop offset=".98" stop-color="#929292"/>
       <stop offset="1" stop-color="#6c6c6c"/>
-    </linearGradient>
+    </linearGradient> -->
     <symbol id="_ОВ" data-name="ОВ" viewBox="0 0 685.24 289.46">
       <g id="_1-3" data-name="1">
         <rect class="cls-89" x="15.04" y="131.45" width="655.15" height="41.87"/>
@@ -1137,7 +1163,7 @@
         <line class="cls-133" x1="481.69" y1="288.96" x2="556.4" y2="288.96"/>
       </g>
     </symbol>
-    <linearGradient id="_Безымянный_градиент_3-2" data-name="Безымянный градиент 3" x1="2.41" y1="1601.95" x2="537.6" y2="1601.95" gradientTransform="translate(0 -1324.29)" xlink:href="#_Безымянный_градиент_3"/>
+    <!-- <linearGradient id="_Безымянный_градиент_3-2" data-name="Безымянный градиент 3" x1="2.41" y1="1601.95" x2="537.6" y2="1601.95" gradientTransform="translate(0 -1324.29)" xlink:href="#_Безымянный_градиент_3"/> -->
     <symbol id="_РВС" data-name="РВС" viewBox="0 0 541 487.85">
       <g id="_1-4" data-name="1">
         <path class="cls-158" d="M2.41,68.38v382.4c0,.08,0,.17.08.25,36.12,54.34,505.88,41.91,533.91.72.06-.08.08-.17.08-.28l1.11-383.4c-87.9,49.22-478.18,49.92-534.46,0-.28-.25-.72-.08-.72.31h0Z"/>
@@ -1167,7 +1193,7 @@
         <path class="cls-110" d="M268.18,78.84c0-2.81,1.95-5.09,4.42-5.17,25.53-.67,155.59-4.67,222.08-17.33,4.78-.92,9.23-1.86,13.26-2.86,3.06-.75,5.87-1.53,8.45-2.34,18.55-5.78,24.36-12.96,7.62-21.86-9.46-4.03-23.44-7.59-40.8-10.62-1.72-.31-3.48-.58-5.28-.89-26.7-4.37-60.51-7.62-97.78-9.79-1.72-.11-3.45-.19-5.17-.28-32.45-1.78-67.33-2.73-102.25-2.84h-5.31c-36.4,0-72.69.86-106.15,2.64-1.97.11-3.92.22-5.87.33-38.32,2.2-72.64,5.65-98.67,10.32-1.86.33-3.64.67-5.42,1.03-14.13,2.75-25.5,5.92-33.32,9.51-18.69,8.51-12.82,15.68,5.95,21.61h0c3.06.97,6.48,1.92,10.18,2.81h0c4.67,1.14,9.79,2.22,15.27,3.25,57.2,10.79,153.87,16.13,175.31,17.21,2.39.14,4.28,2.39,4.28,5.14v399.17h-5.81V81.12c0-1.7-1.2-3.11-2.67-3.14-8.04-.22-33.29-1.06-63.96-3.09-1.89-.11-3.78-.25-5.7-.39-34.12-2.36-73.81-6.17-103.84-12.18-1.89-.39-3.75-.78-5.56-1.17-2.09-.44-4.12-.92-6.09-1.42-4.25-1.06-8.23-2.14-11.85-3.28h0c-2.86-.92-5.51-1.89-7.93-2.86-16.88-7.01-21.55-15.91-3.87-27.28C83.56-13.76,505-3.17,535.15,30.76c10.71,9.71,4.59,17.46-11.6,23.67h0c-2.09.83-4.37,1.61-6.79,2.36h0c-3.14.97-6.54,1.92-10.12,2.78-4.48,1.08-9.29,2.14-14.38,3.11-1.72.33-3.5.67-5.31.97-28.75,5.12-65.3,8.54-100,10.82-1.97.14-3.92.25-5.9.36-48.89,3.06-92.91,3.87-104.4,4.06-1.61,0-2.92,1.53-2.92,3.36v395.64h-5.59V78.84h.03Z"/>
       </g>
     </symbol>
-    <linearGradient id="_Безымянный_градиент_10-2" data-name="Безымянный градиент 10" x1="314.54" y1="16404.77" x2="314.54" y2="16581.46" gradientTransform="translate(0 16673.46) scale(1 -1)" xlink:href="#_Безымянный_градиент_10"/>
+    <!-- <linearGradient id="_Безымянный_градиент_10-2" data-name="Безымянный градиент 10" x1="314.54" y1="16404.77" x2="314.54" y2="16581.46" gradientTransform="translate(0 16673.46) scale(1 -1)" xlink:href="#_Безымянный_градиент_10"/> -->
     <symbol id="_С" data-name="С" viewBox="0 0 540.5 289.46">
       <g id="_1_1" data-name="1/1">
         <rect class="cls-64" x="121.27" y="92" width="386.54" height="176.68"/>
@@ -1254,7 +1280,7 @@
         <line class="cls-13" x1="540" y1="196.38" x2="507.81" y2="245.84"/>
       </g>
     </symbol>
-    <linearGradient id="_Безымянный_градиент_7" data-name="Безымянный градиент 7" x1="236.62" y1="16541.9" x2="247.74" y2="16541.9" gradientTransform="translate(0 16808.83) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <!-- <linearGradient id="_Безымянный_градиент_7" data-name="Безымянный градиент 7" x1="236.62" y1="16541.9" x2="247.74" y2="16541.9" gradientTransform="translate(0 16808.83) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#6c6c6c"/>
       <stop offset="0" stop-color="#6f6f6f"/>
       <stop offset=".04" stop-color="#959595"/>
@@ -1271,13 +1297,13 @@
       <stop offset=".87" stop-color="#adadad"/>
       <stop offset=".95" stop-color="#898989"/>
       <stop offset="1" stop-color="#6c6c6c"/>
-    </linearGradient>
-    <linearGradient id="_Безымянный_градиент_7-2" data-name="Безымянный градиент 7" x1="270.52" y1="16414.64" x2="270.52" y2="16399.25" xlink:href="#_Безымянный_градиент_7"/>
-    <linearGradient id="_Безымянный_градиент_7-3" data-name="Безымянный градиент 7" x1="38.16" y1="16452.31" x2="49.28" y2="16452.31" xlink:href="#_Безымянный_градиент_7"/>
-    <linearGradient id="_Безымянный_градиент_7-4" data-name="Безымянный градиент 7" x1="94.59" y1="16540.59" x2="108.33" y2="16540.59" xlink:href="#_Безымянный_градиент_7"/>
-    <linearGradient id="_Безымянный_градиент_7-5" data-name="Безымянный градиент 7" x1="93.91" y1="16609.84" x2="107.65" y2="16609.84" xlink:href="#_Безымянный_градиент_7"/>
-    <linearGradient id="_Безымянный_градиент_7-6" data-name="Безымянный градиент 7" x1="391.52" y1="16733.45" x2="438.19" y2="16733.45" xlink:href="#_Безымянный_градиент_7"/>
-    <linearGradient id="_Безымянный_градиент_7-7" data-name="Безымянный градиент 7" x1="491.24" y1="16597.76" x2="502.47" y2="16597.76" xlink:href="#_Безымянный_градиент_7"/>
+    </linearGradient> -->
+    <!-- <linearGradient id="_Безымянный_градиент_7-2" data-name="Безымянный градиент 7" x1="270.52" y1="16414.64" x2="270.52" y2="16399.25" xlink:href="#_Безымянный_градиент_7"/> -->
+    <!-- <linearGradient id="_Безымянный_градиент_7-3" data-name="Безымянный градиент 7" x1="38.16" y1="16452.31" x2="49.28" y2="16452.31" xlink:href="#_Безымянный_градиент_7"/> -->
+    <!-- <linearGradient id="_Безымянный_градиент_7-4" data-name="Безымянный градиент 7" x1="94.59" y1="16540.59" x2="108.33" y2="16540.59" xlink:href="#_Безымянный_градиент_7"/> -->
+    <!-- <linearGradient id="_Безымянный_градиент_7-5" data-name="Безымянный градиент 7" x1="93.91" y1="16609.84" x2="107.65" y2="16609.84" xlink:href="#_Безымянный_градиент_7"/> -->
+    <!-- <linearGradient id="_Безымянный_градиент_7-6" data-name="Безымянный градиент 7" x1="391.52" y1="16733.45" x2="438.19" y2="16733.45" xlink:href="#_Безымянный_градиент_7"/> -->
+    <!-- <linearGradient id="_Безымянный_градиент_7-7" data-name="Безымянный градиент 7" x1="491.24" y1="16597.76" x2="502.47" y2="16597.76" xlink:href="#_Безымянный_градиент_7"/> -->
     <symbol id="_СИКН" data-name="СИКН" viewBox="0 0 540 424.83">
       <g>
         <rect class="cls-210" width="540" height="424.83"/>
@@ -1743,7 +1769,7 @@
         <polygon class="cls-8" points="147.39 387.37 133.74 387.37 133.74 391.46 125.4 391.46 125.4 412.31 155.73 412.31 155.73 391.46 147.39 391.46 147.39 387.37"/>
       </g>
     </symbol>
-    <linearGradient id="_Безымянный_градиент_10-3" data-name="Безымянный градиент 10" x1="280.75" y1="16427.19" x2="280.75" y2="16584.53" gradientTransform="translate(0 16607.6) scale(1 -1)" xlink:href="#_Безымянный_градиент_10"/>
+    <!-- <linearGradient id="_Безымянный_градиент_10-3" data-name="Безымянный градиент 10" x1="280.75" y1="16427.19" x2="280.75" y2="16584.53" gradientTransform="translate(0 16607.6) scale(1 -1)" xlink:href="#_Безымянный_градиент_10"/> -->
     <symbol id="_Т" data-name="Т" viewBox="0 0 541 223.6">
       <g id="_1-5" data-name="1">
         <rect class="cls-89" x="5.15" y="122.03" width="36.33" height="21.07"/>
@@ -1762,7 +1788,7 @@
         <rect class="cls-4" x="101.15" y=".5" width="31.92" height="6.96" rx=".85" ry=".85"/>
       </g>
     </symbol>
-    <linearGradient id="_Безымянный_градиент_14" data-name="Безымянный градиент 14" x1="357.59" y1="16633.1" x2="485.1" y2="16633.1" gradientTransform="translate(0 16882.21) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <!-- <linearGradient id="_Безымянный_градиент_14" data-name="Безымянный градиент 14" x1="357.59" y1="16633.1" x2="485.1" y2="16633.1" gradientTransform="translate(0 16882.21) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#6b6b6b"/>
       <stop offset="0" stop-color="#888"/>
       <stop offset=".02" stop-color="#a8a8a8"/>
@@ -1779,17 +1805,17 @@
       <stop offset=".86" stop-color="#9f9f9f"/>
       <stop offset=".98" stop-color="#757575"/>
       <stop offset="1" stop-color="#6c6c6c"/>
-    </linearGradient>
-    <linearGradient id="_Безымянный_градиент_13" data-name="Безымянный градиент 13" x1="421.34" y1="16454.3" x2="421.34" y2="16472.46" gradientTransform="translate(0 16882.21) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    </linearGradient> -->
+    <!-- <linearGradient id="_Безымянный_градиент_13" data-name="Безымянный градиент 13" x1="421.34" y1="16454.3" x2="421.34" y2="16472.46" gradientTransform="translate(0 16882.21) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#999"/>
       <stop offset=".17" stop-color="#868686"/>
       <stop offset=".52" stop-color="#646464"/>
       <stop offset=".81" stop-color="#505050"/>
       <stop offset="1" stop-color="#494949"/>
-    </linearGradient>
-    <linearGradient id="_Безымянный_градиент_13-2" data-name="Безымянный градиент 13" y1="16437.91" y2="16456.07" xlink:href="#_Безымянный_градиент_13"/>
-    <linearGradient id="_Безымянный_градиент_13-3" data-name="Безымянный градиент 13" y1="16421.52" y2="16439.68" xlink:href="#_Безымянный_градиент_13"/>
-    <linearGradient id="_Безымянный_градиент_13-4" data-name="Безымянный градиент 13" y1="16405.13" y2="16423.29" xlink:href="#_Безымянный_градиент_13"/>
+    </linearGradient> -->
+    <!-- <linearGradient id="_Безымянный_градиент_13-2" data-name="Безымянный градиент 13" y1="16437.91" y2="16456.07" xlink:href="#_Безымянный_градиент_13"/> -->
+    <!-- <linearGradient id="_Безымянный_градиент_13-3" data-name="Безымянный градиент 13" y1="16421.52" y2="16439.68" xlink:href="#_Безымянный_градиент_13"/> -->
+    <!-- <linearGradient id="_Безымянный_градиент_13-4" data-name="Безымянный градиент 13" y1="16405.13" y2="16423.29" xlink:href="#_Безымянный_градиент_13"/> -->
     <symbol id="_УНРА" data-name="УНРА" viewBox="0 0 540 498.21">
       <g>
         <line class="cls-133" x1="304.98" y1="164.03" x2="537.7" y2="164.03"/>
@@ -1842,7 +1868,7 @@
         <rect class="cls-155" x="133.35" y="439.69" width="25.22" height="58.02"/>
       </g>
     </symbol>
-    <linearGradient id="_Безымянный_градиент_10-4" data-name="Безымянный градиент 10" x1="285.1" y1="1124.5" x2="285.1" y2="969.81" gradientTransform="translate(0 -924.11)" xlink:href="#_Безымянный_градиент_10"/>
+    <!-- <linearGradient id="_Безымянный_градиент_10-4" data-name="Безымянный градиент 10" x1="285.1" y1="1124.5" x2="285.1" y2="969.81" gradientTransform="translate(0 -924.11)" xlink:href="#_Безымянный_градиент_10"/> -->
     <symbol id="_УПОГ" data-name="УПОГ" viewBox="0 0 541 229.06">
       <g>
         <rect class="cls-63" x="66.17" y="45.7" width="437.87" height="154.69"/>
@@ -1882,7 +1908,7 @@
         <rect class="cls-68" x="431.01" y="170.96" width="26.51" height="47.17"/>
       </g>
     </symbol>
-    <linearGradient id="_Безымянный_градиент_5" data-name="Безымянный градиент 5" x1="369.49" y1="16568.4" x2="369.49" y2="16404.23" gradientTransform="translate(0 16673.46) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <!-- <linearGradient id="_Безымянный_градиент_5" data-name="Безымянный градиент 5" x1="369.49" y1="16568.4" x2="369.49" y2="16404.23" gradientTransform="translate(0 16673.46) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#6c6c6c"/>
       <stop offset=".03" stop-color="#8f8f8f"/>
       <stop offset=".06" stop-color="#b1b1b1"/>
@@ -1896,7 +1922,7 @@
       <stop offset=".69" stop-color="#bebebe"/>
       <stop offset=".88" stop-color="#8d8d8d"/>
       <stop offset="1" stop-color="#6c6c6c"/>
-    </linearGradient>
+    </linearGradient> -->
     <symbol id="_пбт" data-name="пбт" viewBox="0 0 731.94 289.46">
       <g id="_1-6" data-name="1">
         <rect id="_Прямоугольник_" data-name=" Прямоугольник " class="cls-89" x="90.8" y="69.02" width="543.22" height="27.43"/>
@@ -2066,77 +2092,88 @@
       </g>
     </symbol>
   </defs>
-  <g id="_фон" data-name="фон">
+  <!-- <g id="_фон" data-name="фон">
     <rect class="cls-220" x="0" y="-5.69" width="14000" height="8253.9"/>
-  </g>
+  </g> -->
   <g id="_элементы" data-name="элементы">
-    <g id="_кру" data-name="кру">
+    <g id="kry" data-name="кру">
       <g id="_красный" data-name="красный" color='#fa0'>
-        <use width="260.26" height="132.66" transform="translate(8102.03 2605.33)" xlink:href="#_КРУ"/>
-        <use width="260.26" height="132.66" transform="translate(6541.07 5505.54)" xlink:href="#_КРУ"/>
-        <use width="260.26" height="132.66" transform="translate(2738.32 3907.32)" xlink:href="#_КРУ"/>
-        <use width="260.26" height="132.66" transform="translate(2737.81 2914.57)" xlink:href="#_КРУ"/>
-        <use width="260.26" height="132.66" transform="translate(5053.95 2914.64)" xlink:href="#_КРУ"/>
-        <use width="260.26" height="132.66" transform="translate(5054.01 3907.32)" xlink:href="#_КРУ"/>
+        <use id="kry-1" data-id="kry-1"  width="260.26" height="132.66" transform="translate(2737.81 2914.57)" xlink:href="#_КРУ"/>
+        <use id="kry_1" data-id="kry_1"  width="260.26" height="132.66" transform="translate(6541.07 5505.54)" xlink:href="#_КРУ"/>
+        <use id="kry-2" data-id="kry-2"  width="260.26" height="132.66" transform="translate(2738.32 3907.32)" xlink:href="#_КРУ"/>
+        <use id="kry-5" data-id="kry-5"  width="260.26" height="132.66" transform="translate(5053.95 2914.64)" xlink:href="#_КРУ"/>
+        <use id="kry-6" data-id="kry-6"  width="260.26" height="132.66" transform="translate(5054.01 3907.32)" xlink:href="#_КРУ"/>
+        <use id="kry-9" data-id="kry-9"  width="260.26" height="132.66" transform="translate(8102.03 2605.33)" xlink:href="#_КРУ"/>
       </g>
       <g id="_синий" data-name="синий" color='#0092ff'>
-        <use width="260.26" height="132.66" transform="translate(2326.46 3265.11)" xlink:href="#_КРУ"/>
-        <use width="260.26" height="132.66" transform="translate(2326.19 4202.61)" xlink:href="#_КРУ"/>
-        <use width="260.26" height="132.66" transform="translate(5981.07 5033.1)"  xlink:href="#_КРУ"/>
-        <use width="260.26" height="132.66" transform="translate(4475.39 3264.74)" xlink:href="#_КРУ"/>
-        <use width="260.26" height="132.66" transform="translate(4475.94 4203.21)" xlink:href="#_КРУ"/>
+        <use id="kry-1v"  data-id="kry-1v"  width="260.26" height="132.66" transform="translate(5981.07 5033.1)"  xlink:href="#_КРУ"/>
+        <use id="kry-3"   data-id="kry-3"   width="260.26" height="132.66" transform="translate(2326.46 3265.11)" xlink:href="#_КРУ"/>
+        <use id="kry-4"   data-id="kry-4"   width="260.26" height="132.66" transform="translate(2326.19 4202.61)" xlink:href="#_КРУ"/>
+        <use id="kry-7"   data-id="kry-7"   width="260.26" height="132.66" transform="translate(4475.39 3264.74)" xlink:href="#_КРУ"/>
+        <use id="kry-8"   data-id="kry-8"   width="260.26" height="132.66" transform="translate(4475.94 4203.21)" xlink:href="#_КРУ"/>
       </g>
     </g>
-    <g id="_пбт-2" data-name="пбт">
-      <use width="731.94" height="289.46" transform="translate(4029.26 2007.6)"  xlink:href="#_пбт"/>
-      <use width="731.94" height="289.46" transform="translate(4912.29 2007.11)" xlink:href="#_пбт"/>
-      <use width="731.94" height="289.46" transform="translate(5794.27 2007.06)" xlink:href="#_пбт"/>
-      <use width="731.94" height="289.46" transform="translate(3145.54 2007.52)" xlink:href="#_пбт"/>
+    <g id="pbt" data-name="пбт">
+      <use id="pbt-1" data-id="pbt-1" width="731.94" height="289.46" transform="translate(5794.27 2007.06)" xlink:href="#_пбт"/>
+      <use id="pbt-2" data-id="pbt-2" width="731.94" height="289.46" transform="translate(4912.29 2007.11)" xlink:href="#_пбт"/>
+      <use id="pbt-3" data-id="pbt-3" width="731.94" height="289.46" transform="translate(4029.26 2007.6)"  xlink:href="#_пбт"/>
+      <use id="pbt-4" data-id="pbt-4" width="731.94" height="289.46" transform="translate(3145.54 2007.52)" xlink:href="#_пбт"/>
     </g>
-    <g id="_удх_бдр-3" data-name="удх/бдр">
-      <use width="543" height="316.73" transform="translate(328 2780.24)"     xlink:href="#_удх_бдр" />
-      <use width="543" height="316.73" transform="translate(666.78 4351.95)"  xlink:href="#_удх_бдр" />
-      <use width="543" height="316.73" transform="translate(6607.37 4671.59)" xlink:href="#_удх_бдр" />
+    <g id="ydh_bdr" data-name="удх/бдр">
+      <use id="ydh-1" data-id="ydh-1" width="543" height="316.73" transform="translate(328 2780.24)"     xlink:href="#_удх_бдр" />
+      <use id="ydh-2" data-id="ydh-2" width="543" height="316.73" transform="translate(666.78 4351.95)"  xlink:href="#_удх_бдр" />
+      <use id="bdr"   data-id="bdr"   width="543" height="316.73" transform="translate(6607.37 4671.59)" xlink:href="#_удх_бдр" />
     </g>
-    <g id="_гс" data-name="гс">
-      <use width="165.55" height="449.15" transform="translate(6663.67 1475.17)" xlink:href="#_ГС"/>
-      <use width="165.55" height="449.15" transform="translate(8167.07 1475.97)" xlink:href="#_ГС"/>
+    <g id="gs" data-name="гс">
+      <use id="gs-1" data-id="gs-1" width="165.55" height="449.15" transform="translate(6663.67 1475.17)" xlink:href="#_ГС"/>
+      <use id="gs-2" data-id="gs-2" width="165.55" height="449.15" transform="translate(8167.07 1475.97)" xlink:href="#_ГС"/>
     </g>
-    <g id="_с" data-name="с">
-      <use width="540.5" height="289.46" transform="translate(1819.82 2824.19)" xlink:href="#_С"/>
-      <use width="540.5" height="289.46" transform="translate(1820.26 3816.18)" xlink:href="#_С"/>
-      <use width="540.5" height="289.46" transform="translate(3969.15 3817.12)" xlink:href="#_С"/>
-      <use width="540.5" height="289.46" transform="translate(3969.15 2824.56)" xlink:href="#_С"/>
-      <use width="540.5" height="289.46" transform="translate(5753.88 3817.24)" xlink:href="#_С"/>
-      <use width="540.5" height="289.46" transform="translate(5753.58 2823.58)" xlink:href="#_С"/>
+    <g id="s" data-name="с">
+      <use id="s-1_1"  data-id="s-1_1"   width="540.5" height="289.46" transform="translate(1819.82 2824.19)" xlink:href="#_С"/>
+      <use id="s-1_2"  data-id="s-1_2"   width="540.5" height="289.46" transform="translate(1820.26 3816.18)" xlink:href="#_С"/>
+      <use id="s-2_1"  data-id="s-2_1"   width="540.5" height="289.46" transform="translate(3969.15 2824.56)" xlink:href="#_С"/>
+      <use id="s-2_2"  data-id="s-2_2"   width="540.5" height="289.46" transform="translate(3969.15 3817.12)" xlink:href="#_С"/>
+      <use id="ksy-1"  data-id="ksy-1"  width="540.5" height="289.46" transform="translate(5753.58 2823.58)" xlink:href="#_С"/>
+      <use id="ksy-2"  data-id="ksy-2"   width="540.5" height="289.46" transform="translate(5753.88 3817.24)" xlink:href="#_С"/>
     </g>
-    <g id="_рвс" data-name="рвс">
-      <use width="541" height="487.85" transform="translate(4572.36 5790.52)" xlink:href="#_РВС"/>
-      <use width="541" height="487.85" transform="translate(5715.72 5789.82)" xlink:href="#_РВС"/>
-      <use width="541" height="487.85" transform="translate(4572.76 6446.16)" xlink:href="#_РВС"/>
-      <use width="541" height="487.85" transform="translate(5715.72 6446.15)" xlink:href="#_РВС"/>
-      <use width="541" height="487.85" transform="translate(4573.36 7113.71)" xlink:href="#_РВС"/>
-      <use width="541" height="487.85" transform="translate(5715.93 7106.32)" xlink:href="#_РВС"/>
+    <g id="rvs" data-name="рвс">
+      <use id="rvs-1" data-id="rvs-1" width="541" height="487.85" transform="translate(4572.36 5790.52)" xlink:href="#_РВС"/>
+      <use id="rvs-2" data-id="rvs-2" width="541" height="487.85" transform="translate(5715.72 5789.82)" xlink:href="#_РВС"/>
+      <use id="rvs-3" data-id="rvs-3" width="541" height="487.85" transform="translate(4572.76 6446.16)" xlink:href="#_РВС"/>
+      <use id="rvs-4" data-id="rvs-4" width="541" height="487.85" transform="translate(5715.72 6446.15)" xlink:href="#_РВС"/>
+      <use id="rvs-5" data-id="rvs-5" width="541" height="487.85" transform="translate(4573.36 7113.71)" xlink:href="#_РВС"/>
+      <use id="rvs-6" data-id="rvs-6" width="541" height="487.85" transform="translate(5715.93 7106.32)" xlink:href="#_РВС"/>
     </g>
-    <g id="t">
-      <use width="541" height="223.6" transform="translate(7917.28 3478.36)" xlink:href="#_Т"/>
-      <use width="541" height="223.6" transform="translate(7917.6 4019.54)"  xlink:href="#_Т"/>
-      <use width="541" height="223.6" transform="translate(7918.06 4561.07)" xlink:href="#_Т"/>
+    <g id="t" data-name="т">
+      <use id="t1" data-id="tank-1" width="541" height="223.6" transform="translate(7918.06 4561.07)" xlink:href="#_Т"/>
+      <use id="t2" data-id="tank-2" width="541" height="223.6" transform="translate(7917.6 4019.54)"  xlink:href="#_Т"/>
+      <use id="t3" data-id="tank-3" width="541" height="223.6" transform="translate(7917.28 3478.36)" xlink:href="#_Т"/>
     </g>
-    <g id="_ов" data-name="ов">
-      <use width="685.24" height="289.46" transform="translate(2895.53 5848.8)"  xlink:href="#_ОВ"/>
-      <use width="685.24" height="289.46" transform="translate(2895.55 6546.67)" xlink:href="#_ОВ"/>
+    <g id="ov" data-name="ов">
+      <use id="ov-1" data-id="ov-1" width="685.24" height="289.46" transform="translate(2895.53 5848.8)"  xlink:href="#_ОВ"/>
+      <use id="ov-2" data-id="ov-2" width="685.24" height="289.46" transform="translate(2895.55 6546.67)" xlink:href="#_ОВ"/>
     </g>
-    <use width="540" height="498.21" transform="translate(8769.65 1450.85)" xlink:href="#_УНРА"/>
-    <use width="541" height="229.06" transform="translate(1001.7 3352.93)"  xlink:href="#_УПОГ"/>
-    <g id="_кружки" data-name="кружки">
-      <circle class="cls-205" cx="8709.15" cy="5122.56" r="87.8"  />
-      <circle class="cls-212" cx="232.58"  cy="3476.47" r="99.78" />
-      <circle class="cls-207" cx="7440.21" cy="1700.31" r="168.4" />
+    <g id="ynra" data-name="унра">
+      <use id="ynra" data-id="ynra" width="540" height="498.21" transform="translate(8769.65 1450.85)" xlink:href="#_УНРА"/>
     </g>
-    <use width="540" height="424.83" transform="translate(1795.5 5044.96)"   xlink:href="#_СИКН"/>
-    <use width="541" height="486.59" transform="translate(3182.56 4623.69)"  xlink:href="#_Насос"/>
-    <use width="540" height="689.4"  transform="translate(11276.14 3056.59)" xlink:href="#_Колонна"/>
+    <g id="ypog" data-name="упог">
+      <use id="ypog" data-id="ypog" width="541" height="229.06" transform="translate(1001.7 3352.93)"  xlink:href="#_УПОГ"/>
+    </g>
+      
+    <g id="circle" data-name="кружки">
+      <circle id="bnks"     data-id="bnks"     class="cls-205" cx="8709.15" cy="5122.56" r="87.8"  />
+      <circle id="in-greb"  data-id="in-greb"  class="cls-212" cx="232.58"  cy="3476.47" r="99.78" />
+      <circle id="bir"      data-id="bir"      class="cls-207" cx="7440.21" cy="1700.31" r="168.4" />
+    </g>
+    <g id="sikn" data-name="СИКН">
+      <use id="sikn-1" data-id="sikn-1" width="540" height="424.83" transform="translate(1795.5 5044.96)"   xlink:href="#_СИКН" />
+    </g>
+    <g id="pump" data-name="насос">
+      <use id="pump-1" data-id="pump-1" width="541" height="486.59" transform="translate(3182.56 4623.69)"  xlink:href="#_Насос" />
+    </g>
+    <g id="tube" data-name="колонна">
+      <use id="tube-1" data-id="tube-1" width="540" height="689.4"  transform="translate(11276.14 3056.59)" xlink:href="#_Колонна" />
+    </g>
   </g>
   <g id="_таблички" data-name="таблички">
     <g id="_1_сепараторы" data-name="1 сепараторы">

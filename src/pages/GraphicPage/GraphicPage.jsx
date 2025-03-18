@@ -5,27 +5,27 @@ import Barrel from "../../components/Graphic/Barrel/Barrel";
 import Body from "../../layout/Graphic/Body/Body";
 import { LineGraph } from "../../components/Graphic/Graphics/Line";
 import AlertPanel from "../../components/Graphic/AlertPanel/AlertPanel";
-import { useNavigate } from "react-router-dom";
 
-export default function GraphicPage() {
+export default function GraphicPage({paramerts}) {
 
   return (
-      <div className="graphic-page">
-        <LeftPanel>
-          <ParametrItem
-            name="Параметр"
-            value="Величина"
-            unit="Ед. изм."
-            isHead="yes"
-          />
-          <ParametrList />
-          <Barrel />
-        </LeftPanel>
-        <Body>
-          <LineGraph />
-          <AlertPanel />
-        </Body>
-      </div>
+    <div className="graphic-page">
+      <LeftPanel>
+        <ParametrItem
+          name="Параметр"
+          value="Величина"
+          unit="Ед. изм."
+          isHead="yes"
+        />
+        {/* {console.log("Параметры", paramerts)} */}
+        <ParametrList paramertData={paramerts} />
+        <Barrel />
+      </LeftPanel>
+      <Body>
+        <LineGraph />
+        <AlertPanel />
+      </Body>
+    </div>
   );
 }
 // import Modal from "../../components/Modal/Modal";

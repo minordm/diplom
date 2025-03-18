@@ -20,21 +20,13 @@ const sortItems = (a, b) => {
 };
 
 export default function AlertList() {
-  // const [items, setItems] = useState(parsedData);
-
-  // const addItems = item => {
-  //   setItems(oldItems => [...oldItems, {
-  //     name: item.name,
-  //     datatime: item.datatime,
-  //     message: item.message,
-  //     id: Math.max(...oldItems.map(i => i.id)) + 1
-  //   }])
-  // }
 
   return (
     <div className="alert-list">
-      {parsedData.sort(sortItems).map((el) => (
+      {parsedData.sort(sortItems).map((el, index) => (
         <AlertItem
+          // key={el.id} - если в json добавлю {"id": "1", "name": "H-1", "datatime": ...
+          key={index}
           name={el.name}
           datatime={formatDate(el.datatime)}
           message={el.message}

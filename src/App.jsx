@@ -82,27 +82,28 @@ import GraphicPage from './pages/GraphicPage/GraphicPage';
 
 function App() {
     const [isOpen, setIsOpen] = useState(false);
+    const [paramerts, setParamerts] = useState([]);
 
   return (
     <>
-        <div className="app">
-             <div className='main-page'>
-                <BodyScheme setIsOpen={setIsOpen} />
-                <RightPanel>
-                <Diagrama />
-                <AlertList />
-                </RightPanel>
-                <Dialog open={isOpen} onClose={() => setIsOpen(false)}>
-                    <div className='bg'>
-                        <Dialog.Panel>
-                            <div className='popup'>
-                                <GraphicPage />
-                            </div>
-                        </Dialog.Panel>
-                    </div>
-                </Dialog>
-             </div>
+      <div className="app">
+        <div className="main-page">
+          <BodyScheme setIsOpen={setIsOpen} setParamerts={setParamerts} />
+          <RightPanel>
+            <AlertList />
+          </RightPanel>
+
+          <Dialog open={isOpen} onClose={() => setIsOpen(false)}>
+            <div className="bg">
+              <Dialog.Panel>
+                <div className="popup">
+                  <GraphicPage paramerts={paramerts} />
+                </div>
+              </Dialog.Panel>
+            </div>
+          </Dialog>
         </div>
+      </div>
     </>
   );
 }
