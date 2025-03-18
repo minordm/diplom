@@ -1,16 +1,17 @@
 .barrel {
-    width: 520px;
-    height: 190px;
+    /* width: 520px; */
+    /* height: 190px; */
     border-top: 3px solid rgb(86, 160, 207);
 }
 
 .barrel__head {
     background: rgb(10, 32, 55);
-    width: 520px;
+    /* width: 520px; */
     height: 32px;
     display: flex;
     align-items: center;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 12px;
     font-weight: bold;
     color: white;
 }
@@ -21,19 +22,20 @@
 
 .barrel__body {
     background: rgb(13, 44, 73);
-    width: 520px;
+    /* width: 520px; */
     height: 158px;
     display: flex;
 }
 
 .barrel__right_panel {
-    width: 260px;
+    /* width: 260px; */
     height: 158px;
     display: flex;
 }
 
 .barrel__level_num, .barrel__level_name {
-    width: 85px;
+    /* width: 85px; */
+    width: 60px;
     height: 158px;
     display: flex;
     justify-content: center;
@@ -44,7 +46,8 @@
     display: flex;
     justify-items: end;
     padding: 10px;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 12px;
     font-weight: bold;
     color: yellow;
 }
@@ -54,16 +57,17 @@
 }
 
 .barrel__img {
-    width: 260px;
-    height: 158px;
+    /* width: 260px; */
+    /* height: 158px; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .barrel__img_svg {
-    width: 158px;
-    height: 158px;
+    /* width: 158px; */
+    /* height: 158px; */
+    height: 150px;
 }
 
 .barrel__level {

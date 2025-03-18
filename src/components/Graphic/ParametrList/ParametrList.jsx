@@ -1,112 +1,112 @@
 import "./ParametrList.css";
 import ParametrBlock from "../ParametrBlock/ParametrBlock";
 import ParametrItem from "../ParametrItem/parametrItem";
+import GS from "./GS.json";
+
+const parametrData = GS.map((data) => ({
+  ...data
+}))
+
+
 
 export default function ParametrList() {
-    const data = [
-      { name: "Уровень нефти (факт)", value: "8,23", unit: "м" },
-      { name: "Уровень воды (факт)", value: "0336,383", unit: "тыс.нм^2/сут" },
-      { name: "Расход воды", value: "000,0", unit: "%" },
-      { name: "Наличие воды", value: "39,962", unit: "т" },
-    ];
 
     return (
       <div className="parametr_list">
-        <ParametrBlock name="Параметры нефти" />
-        <ParametrItem
-          name={data[0].name}
-          value={data[0].value}
-          unit={data[0].unit}
-        />
-        <ParametrItem
-          name={data[1].name}
-          value={data[1].value}
-          unit={data[1].unit}
-        />
+        {/* {parametrData.map((el) => (
+          <ParametrItem 
+            name={el.name} 
+            value="0.150" 
+            unit={el.unit}
+          />
+        ))} */}
+        <ParametrBlock name="Параметры ёмкости" />
+        <ParametrItem 
+          name="Давление в ёмкости" 
+          value="0.150" 
+          unit="МПа" />
+
+        <ParametrItem 
+          name="Максимальное давление на входной гребенке" 
+          value="4414.8" 
+          unit="тыс.нм^3/сут" />
+
+        <ParametrItem 
+          name="Минимальное давление на входной гребенке" 
+          value="4414.8" 
+          unit="тыс.нм^3/сут" />
+
+        <ParametrItem 
+          name="Давление (факт)" 
+          value="0.082" 
+          unit="МПа" />
+
+        <ParametrItem 
+          name="Уровень жидкости (факт)" 
+          value="0" 
+          unit="м" />
 
         <ParametrBlock name="Параметры входного потока" />
-        <ParametrItem
-          name={data[2].name}
-          value={data[2].value}
-          unit={data[2].unit}
-        />
-        <ParametrItem
-          name={data[3].name}
-          value={data[3].value}
-          unit={data[3].unit}
-        />
+        <ParametrItem 
+          name="Суммарный расход" 
+          value="0.0" 
+          unit="м^3/сут" />
 
-        <ParametrBlock name="Параметры нефти" />
-        <ParametrItem
-          name={data[0].name}
-          value={data[0].value}
-          unit={data[0].unit}
-        />
-        <ParametrItem
-          name={data[1].name}
-          value={data[1].value}
-          unit={data[1].unit}
-        />
+        <ParametrItem 
+          name="Расход нефти" 
+          value="0.0" 
+          unit="т/сут" />
 
-        <ParametrBlock name="Параметры входного потока" />
-        <ParametrItem
-          name={data[2].name}
-          value={data[2].value}
-          unit={data[2].unit}
-        />
-        <ParametrItem
-          name={data[3].name}
-          value={data[3].value}
-          unit={data[3].unit}
-        />
+        <ParametrItem 
+          name="Расход воды" 
+          value="0.0" 
+          unit="м^3/сут" />
 
-        <ParametrBlock name="Параметры нефти" />
-        <ParametrItem
-          name={data[0].name}
-          value={data[0].value}
-          unit={data[0].unit}
-        />
-        <ParametrItem
-          name={data[1].name}
-          value={data[1].value}
-          unit={data[1].unit}
-        />
+        <ParametrItem 
+          name="Расход газа" 
+          value="0.811" 
+          unit="тыс.нм^3/сут" />
 
-        <ParametrBlock name="Параметры входного потока" />
-        <ParametrItem
-          name={data[2].name}
-          value={data[2].value}
-          unit={data[2].unit}
-        />
-        <ParametrItem
-          name={data[3].name}
-          value={data[3].value}
-          unit={data[3].unit}
-        />
+        <ParametrItem 
+          name="Обводненность" 
+          value="0" 
+          unit="%" />
 
-        <ParametrBlock name="Параметры нефти" />
-        <ParametrItem
-          name={data[0].name}
-          value={data[0].value}
-          unit={data[0].unit}
-        />
-        <ParametrItem
-          name={data[1].name}
-          value={data[1].value}
-          unit={data[1].unit}
-        />
+        <ParametrItem 
+          name="Газовый фактор" 
+          value="0" 
+          unit="нм^3/м^3" />
 
-        <ParametrBlock name="Параметры входного потока" />
-        <ParametrItem
-          name={data[2].name}
-          value={data[2].value}
-          unit={data[2].unit}
-        />
-        <ParametrItem
-          name={data[3].name}
-          value={data[3].value}
-          unit={data[3].unit}
-        />
+        <ParametrBlock name="Параметры выходного потока ГАЗ" />
+        <ParametrItem 
+          name="Суммарный расход" 
+          value="0.0"
+          unit="м^3/сут" />
+
+        <ParametrItem 
+          name="Расход нефти" 
+          value="0.0" 
+          unit="т/сут" />
+
+        <ParametrItem 
+          name="Расход воды" 
+          value="0.0" 
+          unit="м^3/сут" />
+
+        <ParametrItem 
+          name="Расход газа" 
+          value="0.811" 
+          unit="тыс.нм^3/сут" />
+
+        <ParametrItem 
+          name="Обводненность" 
+          value="0" 
+          unit="%" />
+
+        <ParametrItem 
+          name="Газовый фактор" 
+          value="0" 
+          unit="нм^3/м^3" />
       </div>
     );
 }

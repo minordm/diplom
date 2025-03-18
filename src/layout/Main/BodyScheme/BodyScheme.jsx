@@ -1,27 +1,54 @@
-import { useState } from 'react';
-import { format } from 'date-fns';
 import "./BodyScheme.css";
 import { ReactSVG } from "react-svg";
+import { useRef, useState } from "react";
+import { TransformComponent, TransformWrapper } from "react-zoom-pan-pinch";
 
 export default function BodyScheme() {
   const [count, setCount] = useState(0);
-  const currentDate = new Date();
-  const formattedDate = format(currentDate, 'dd-MM-yyyy HH:mm');
+  const tranformRef = useRef(null);
 
   return (
     <div className="body-scheme">
-      <p>Текущая дата и время: {formattedDate}</p>
-      <button onClick={() => setCount(count + 1)}>+</button>
-      <ReactSVG
-        src="./scheme2-01-1.svg"
-        className="scheme1"
-        beforeInjection={(svg) => {
-          const textElement = svg.querySelector("#oilСonsumption");
-          if (textElement) {
-            textElement.textContent = count;
-          }
-        }}
-      />
+      <button className="table_plus" onClick={() => setCount(count + 1)}>
+        +
+      </button>
+      <div className="zoom-button">
+        <button
+          className="zoomIn-button"
+          onClick={() => tranformRef.current?.zoomIn()}
+        >
+          +
+        </button>
+        <button
+          className="zoomOut-button"
+          onClick={() => tranformRef.current?.zoomOut()}
+        >
+          -
+        </button>
+        <button
+          className="zoomReset-button"
+          onClick={() => tranformRef.current?.resetTransform()}
+        >
+          Reset
+        </button>
+      </div>
+      <TransformWrapper ref={tranformRef}>
+        <TransformComponent
+          wrapperStyle={{ width: "100%", height: "100%" }}
+          contentStyle={{ width: "100%", height: "100%" }}
+        >
+          <ReactSVG
+            src="./scheme2-01-1.svg"
+            className="scheme1"
+            beforeInjection={(svg) => {
+              const textElement = svg.querySelector("#oilСonsumption");
+              if (textElement) {
+                textElement.textContent = count;
+              }
+            }}
+          />
+        </TransformComponent>
+      </TransformWrapper>
     </div>
   );
 }
