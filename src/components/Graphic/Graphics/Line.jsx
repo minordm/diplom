@@ -1,12 +1,13 @@
 import {
   Chart as ChartJS,
-  TimeScale, // (x) time scale 
+  TimeScale, // x (time scale)
   LinearScale, // y
-  PointElement, // всплывающая подсказка для элемента
+  PointElement,
   LineElement,
   Title, // это не обязательно
-  Tooltip,
+  Tooltip, // всплывающая подсказка для элемента
   Legend,
+  Filler,
 } from "chart.js";
 import zoomPlugin from "chartjs-plugin-zoom";
 
@@ -23,6 +24,7 @@ ChartJS.register(
   Title,
   Tooltip,
   Legend,
+  Filler,
   zoomPlugin
 );
 
@@ -99,8 +101,8 @@ export const LineGraph = () => {
             label: "Наличие воды",
             data: parsedData.map((data) => data.value),
             borderColor: "rgb(86, 160, 207)",
-            backgroundColor: "rgb(86, 160, 207)", // Цвет заливки под графиком
             fill: true, // Включаем заливку под графиком
+            // backgroundColor: "rgb(86, 160, 207)", // Цвет заливки под графиком
           },
         ],
       }}

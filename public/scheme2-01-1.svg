@@ -2113,66 +2113,57 @@
         <use id="kry-8"   data-id="kry-8"   width="260.26" height="132.66" transform="translate(4475.94 4203.21)" xlink:href="#_КРУ"/>
       </g>
     </g>
-    <g id="pbt" data-name="пбт">
-      <use id="pbt-1" data-id="pbt-1" width="731.94" height="289.46" transform="translate(5794.27 2007.06)" xlink:href="#_пбт"/>
-      <use id="pbt-2" data-id="pbt-2" width="731.94" height="289.46" transform="translate(4912.29 2007.11)" xlink:href="#_пбт"/>
-      <use id="pbt-3" data-id="pbt-3" width="731.94" height="289.46" transform="translate(4029.26 2007.6)"  xlink:href="#_пбт"/>
-      <use id="pbt-4" data-id="pbt-4" width="731.94" height="289.46" transform="translate(3145.54 2007.52)" xlink:href="#_пбт"/>
+    <g>
+      <use id="pbt-1" class="pbt" width="731.94" height="289.46" transform="translate(5794.27 2007.06)" xlink:href="#_пбт"/>
+      <use id="pbt-2" class="pbt" width="731.94" height="289.46" transform="translate(4912.29 2007.11)" xlink:href="#_пбт"/>
+      <use id="pbt-3" class="pbt" width="731.94" height="289.46" transform="translate(4029.26 2007.6)"  xlink:href="#_пбт"/>
+      <use id="pbt-4" class="pbt" width="731.94" height="289.46" transform="translate(3145.54 2007.52)" xlink:href="#_пбт"/>
     </g>
-    <g id="ydh_bdr" data-name="удх/бдр">
-      <use id="ydh-1" data-id="ydh-1" width="543" height="316.73" transform="translate(328 2780.24)"     xlink:href="#_удх_бдр" />
-      <use id="ydh-2" data-id="ydh-2" width="543" height="316.73" transform="translate(666.78 4351.95)"  xlink:href="#_удх_бдр" />
-      <use id="bdr"   data-id="bdr"   width="543" height="316.73" transform="translate(6607.37 4671.59)" xlink:href="#_удх_бдр" />
+    <g>
+      <use id="ydh-1" class="ydh_bdr" width="543" height="316.73" transform="translate(328 2780.24)"     xlink:href="#_удх_бдр" />
+      <use id="ydh-2" class="ydh_bdr" width="543" height="316.73" transform="translate(666.78 4351.95)"  xlink:href="#_удх_бдр" />
+      <use id="bdr"   class="ydh_bdr" width="543" height="316.73" transform="translate(6607.37 4671.59)" xlink:href="#_удх_бдр" />
     </g>
-    <g id="gs" data-name="гс">
-      <use id="gs-1" data-id="gs-1" width="165.55" height="449.15" transform="translate(6663.67 1475.17)" xlink:href="#_ГС"/>
-      <use id="gs-2" data-id="gs-2" width="165.55" height="449.15" transform="translate(8167.07 1475.97)" xlink:href="#_ГС"/>
+    <g>
+      <use id="gs-1" class="gs" width="165.55" height="449.15" transform="translate(6663.67 1475.17)" xlink:href="#_ГС"/>
+      <use id="gs-2" class="gs" width="165.55" height="449.15" transform="translate(8167.07 1475.97)" xlink:href="#_ГС"/>
     </g>
-    <g id="s" data-name="с">
-      <use id="s-1_1"  data-id="s-1_1"   width="540.5" height="289.46" transform="translate(1819.82 2824.19)" xlink:href="#_С"/>
-      <use id="s-1_2"  data-id="s-1_2"   width="540.5" height="289.46" transform="translate(1820.26 3816.18)" xlink:href="#_С"/>
-      <use id="s-2_1"  data-id="s-2_1"   width="540.5" height="289.46" transform="translate(3969.15 2824.56)" xlink:href="#_С"/>
-      <use id="s-2_2"  data-id="s-2_2"   width="540.5" height="289.46" transform="translate(3969.15 3817.12)" xlink:href="#_С"/>
-      <use id="ksy-1"  data-id="ksy-1"  width="540.5" height="289.46" transform="translate(5753.58 2823.58)" xlink:href="#_С"/>
-      <use id="ksy-2"  data-id="ksy-2"   width="540.5" height="289.46" transform="translate(5753.88 3817.24)" xlink:href="#_С"/>
+    <g>
+      <use id="s-1_1"  class="s"   width="540.5" height="289.46" transform="translate(1819.82 2824.19)" xlink:href="#_С"/>
+      <use id="s-1_2"  class="s"   width="540.5" height="289.46" transform="translate(1820.26 3816.18)" xlink:href="#_С"/>
+      <use id="s-2_1"  class="s"   width="540.5" height="289.46" transform="translate(3969.15 2824.56)" xlink:href="#_С"/>
+      <use id="s-2_2"  class="s"   width="540.5" height="289.46" transform="translate(3969.15 3817.12)" xlink:href="#_С"/>
+      <use id="ksy-1"  class="s"   width="540.5" height="289.46" transform="translate(5753.58 2823.58)" xlink:href="#_С"/>
+      <use id="ksy-2"  class="s"   width="540.5" height="289.46" transform="translate(5753.88 3817.24)" xlink:href="#_С"/>
     </g>
-    <g id="rvs" data-name="рвс">
-      <use id="rvs-1" data-id="rvs-1" width="541" height="487.85" transform="translate(4572.36 5790.52)" xlink:href="#_РВС"/>
-      <use id="rvs-2" data-id="rvs-2" width="541" height="487.85" transform="translate(5715.72 5789.82)" xlink:href="#_РВС"/>
-      <use id="rvs-3" data-id="rvs-3" width="541" height="487.85" transform="translate(4572.76 6446.16)" xlink:href="#_РВС"/>
-      <use id="rvs-4" data-id="rvs-4" width="541" height="487.85" transform="translate(5715.72 6446.15)" xlink:href="#_РВС"/>
-      <use id="rvs-5" data-id="rvs-5" width="541" height="487.85" transform="translate(4573.36 7113.71)" xlink:href="#_РВС"/>
-      <use id="rvs-6" data-id="rvs-6" width="541" height="487.85" transform="translate(5715.93 7106.32)" xlink:href="#_РВС"/>
+    <g>
+      <use id="rvs-1" class="rvs" width="541" height="487.85" transform="translate(4572.36 5790.52)" xlink:href="#_РВС"/>
+      <use id="rvs-2" class="rvs" width="541" height="487.85" transform="translate(5715.72 5789.82)" xlink:href="#_РВС"/>
+      <use id="rvs-3" class="rvs" width="541" height="487.85" transform="translate(4572.76 6446.16)" xlink:href="#_РВС"/>
+      <use id="rvs-4" class="rvs" width="541" height="487.85" transform="translate(5715.72 6446.15)" xlink:href="#_РВС"/>
+      <use id="rvs-5" class="rvs" width="541" height="487.85" transform="translate(4573.36 7113.71)" xlink:href="#_РВС"/>
+      <use id="rvs-6" class="rvs" width="541" height="487.85" transform="translate(5715.93 7106.32)" xlink:href="#_РВС"/>
     </g>
-    <g id="t" data-name="т">
-      <use id="t1" data-id="tank-1" width="541" height="223.6" transform="translate(7918.06 4561.07)" xlink:href="#_Т"/>
-      <use id="t2" data-id="tank-2" width="541" height="223.6" transform="translate(7917.6 4019.54)"  xlink:href="#_Т"/>
-      <use id="t3" data-id="tank-3" width="541" height="223.6" transform="translate(7917.28 3478.36)" xlink:href="#_Т"/>
+    <g>
+      <use id="t1" class="t" width="541" height="223.6" transform="translate(7918.06 4561.07)" xlink:href="#_Т"/>
+      <use id="t2" class="t" width="541" height="223.6" transform="translate(7917.6 4019.54)"  xlink:href="#_Т"/>
+      <use id="t3" class="t" width="541" height="223.6" transform="translate(7917.28 3478.36)" xlink:href="#_Т"/>
     </g>
-    <g id="ov" data-name="ов">
-      <use id="ov-1" data-id="ov-1" width="685.24" height="289.46" transform="translate(2895.53 5848.8)"  xlink:href="#_ОВ"/>
-      <use id="ov-2" data-id="ov-2" width="685.24" height="289.46" transform="translate(2895.55 6546.67)" xlink:href="#_ОВ"/>
+
+    <g>
+      <use id="ov-1" class="ov" width="685.24" height="289.46" transform="translate(2895.53 5848.8)"  xlink:href="#_ОВ"/>
+      <use id="ov-2" class="ov" width="685.24" height="289.46" transform="translate(2895.55 6546.67)" xlink:href="#_ОВ"/>
     </g>
-    <g id="ynra" data-name="унра">
-      <use id="ynra" data-id="ynra" width="540" height="498.21" transform="translate(8769.65 1450.85)" xlink:href="#_УНРА"/>
-    </g>
-    <g id="ypog" data-name="упог">
-      <use id="ypog" data-id="ypog" width="541" height="229.06" transform="translate(1001.7 3352.93)"  xlink:href="#_УПОГ"/>
-    </g>
-      
-    <g id="circle" data-name="кружки">
-      <circle id="bnks"     data-id="bnks"     class="cls-205" cx="8709.15" cy="5122.56" r="87.8"  />
-      <circle id="in-greb"  data-id="in-greb"  class="cls-212" cx="232.58"  cy="3476.47" r="99.78" />
-      <circle id="bir"      data-id="bir"      class="cls-207" cx="7440.21" cy="1700.31" r="168.4" />
-    </g>
-    <g id="sikn" data-name="СИКН">
-      <use id="sikn-1" data-id="sikn-1" width="540" height="424.83" transform="translate(1795.5 5044.96)"   xlink:href="#_СИКН" />
-    </g>
-    <g id="pump" data-name="насос">
-      <use id="pump-1" data-id="pump-1" width="541" height="486.59" transform="translate(3182.56 4623.69)"  xlink:href="#_Насос" />
-    </g>
-    <g id="tube" data-name="колонна">
-      <use id="tube-1" data-id="tube-1" width="540" height="689.4"  transform="translate(11276.14 3056.59)" xlink:href="#_Колонна" />
+
+    <use id="ynra" class="ynra"   width="540" height="498.21" transform="translate(8769.65 1450.85)" xlink:href="#_УНРА"/>
+    <use id="ypog" class="ypog"   width="541" height="229.06" transform="translate(1001.7 3352.93)"  xlink:href="#_УПОГ"/>
+    <use id="sikn-1" class="sikn" width="540" height="424.83" transform="translate(1795.5 5044.96)"   xlink:href="#_СИКН" />
+    <use id="pump-1" class="pump" width="541" height="486.59" transform="translate(3182.56 4623.69)"  xlink:href="#_Насос" />
+    <use id="tube-1" class="tube" width="540" height="689.4"  transform="translate(11276.14 3056.59)" xlink:href="#_Колонна" />
+    <g>
+      <circle id="bnks"     data-id="circle"  class="cls-205" cx="8709.15" cy="5122.56" r="87.8"  />
+      <circle id="in-greb"  data-id="circle"  class="cls-212" cx="232.58"  cy="3476.47" r="99.78" />
+      <circle id="bir"      data-id="circle"  class="cls-207" cx="7440.21" cy="1700.31" r="168.4" />
     </g>
   </g>
   <g id="_таблички" data-name="таблички">
