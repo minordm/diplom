@@ -94,7 +94,7 @@ export default function BodyScheme({
             className="scheme1"
             onClick={handleClick}
             beforeInjection={(svg) => {
-              const textElement = svg.querySelector("#oilСonsumption");
+              const textElement = svg.querySelector("#sep1_press1");
               if (textElement) {
                 textElement.textContent = count;
               }

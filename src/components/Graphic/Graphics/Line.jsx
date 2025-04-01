@@ -15,6 +15,7 @@ import "chartjs-adapter-date-fns";
 import { Line } from "react-chartjs-2";
 
 import lineChartData from "./data.json";
+import "./Line.css";
 
 ChartJS.register(
   TimeScale,
@@ -32,6 +33,8 @@ const parsedData = lineChartData.map((data) => ({
   ...data,
   label: new Date(data.label),
 }));
+
+const values = parsedData.map((data) => data.value);
 
 const options = {
   scales: {
@@ -52,8 +55,8 @@ const options = {
       max: parsedData[parsedData.length - 1].label, // конечная точка
     },
     y: {
-      min: 1.4,
-      max: 1.5,
+      min: Math.min(...values) - 0.01,
+      max: Math.max(...values) + 0.01,
     },
   },
   plugins: {
@@ -99,7 +102,7 @@ export const LineGraph = () => {
         datasets: [
           {
             label: "Наличие воды",
-            data: parsedData.map((data) => data.value),
+            data: values,
             borderColor: "rgb(86, 160, 207)",
             fill: true, // Включаем заливку под графиком
             // backgroundColor: "rgb(86, 160, 207)", // Цвет заливки под графиком
@@ -107,6 +110,7 @@ export const LineGraph = () => {
         ],
       }}
       options={options}
+      className="graphic"
     />
   );
 };

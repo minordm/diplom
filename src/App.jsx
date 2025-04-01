@@ -28,8 +28,7 @@ function App() {
 
           <Dialog open={isOpen} onClose={() => setIsOpen(false)}>
             <div className="bg">
-              <Dialog.Panel>
-                <div className="popup">
+              <Dialog.Panel className="dialog-panel">
                   <Dialog.Title className="dialog-title">
                     <div className='header'>{selectedObjectName}</div>
                     <button onClick={() => setIsOpen(false)}>x</button>
@@ -38,7 +37,6 @@ function App() {
                     paramerts={paramerts}
                     objectName={selectedObjectName}
                   />
-                </div>
               </Dialog.Panel>
             </div>
           </Dialog>

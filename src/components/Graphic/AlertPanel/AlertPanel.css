@@ -1,13 +1,11 @@
 .main {
-    /* width: 1210px; */
-    height: 255px;
     display: flex;
     background: rgb(13, 44, 73);
     border-top: 3px solid rgb(86, 160, 207);
+    flex: 1;
 }
 
 .block_alert {
-    /* width: 605px; */
     flex: 1;
 }
 

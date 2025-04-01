@@ -1,6 +1,8 @@
 .parametr_list {
     overflow-y: auto;
-    height: 68vh;
+    /* height: 68vh; */
+    /* height: auto; */
+    flex: 1;
     display: flex;
     flex-direction: column;
     gap: 10px;

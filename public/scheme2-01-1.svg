@@ -2177,9 +2177,6 @@
       <use id="bnks" class-name="circle" name="БНКС" transform="translate(0, 0)" xlink:href="#_БНКС" />
       <use id="in-greb" class-name="circle" name="Входная гребенка" transform="translate(0, 0)" xlink:href="#_ГРЕБЕНКА" />
       <use id="bir" class-name="circle" name="БИР" transform="translate(0, 0)" xlink:href="#_БИР" />
-      <!-- <circle id="bnks"     class-name="circle"  name="БНКС" class="cls-205" cx="8709.15" cy="5122.56" r="87.8"  /> -->
-      <!-- <circle id="in-greb"  class-name="circle"  name="Входная гребенка" class="cls-212" cx="232.58"  cy="3476.47" r="99.78" /> -->
-      <!-- <circle id="bir"      class-name="circle"  name="БИР" class="cls-207" cx="7440.21" cy="1700.31" r="168.4" /> -->
     </g>
   </g>
   <g id="_таблички" data-name="таблички">
@@ -2206,11 +2203,11 @@
           <text class="cls-217" transform="translate(114 2164)"><tspan>Уровень ж-ти в С-1/2, мм (факт)</tspan></text>
         </g>
         <g id="_значения" data-name="значения">
-          <text id='oilСonsumption' class="cls-217" transform="translate(1860 1593)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(1860 1731)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(1860 1876)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(1860 2020)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(1860 2164)"><tspan>0</tspan></text>
+          <text id='sep1-oil'     class="cls-217" transform="translate(1860 1593)"><tspan>0</tspan></text>
+          <text id="sep1-press1"  class="cls-217" transform="translate(1860 1731)"><tspan>0</tspan></text>
+          <text id="sep1-lev1"    class="cls-217" transform="translate(1860 1876)"><tspan>0</tspan></text>
+          <text id="sep1-press2"  class="cls-217" transform="translate(1860 2020)"><tspan>0</tspan></text>
+          <text id="sep1-lev2"    class="cls-217" transform="translate(1860 2164)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
@@ -2232,16 +2229,16 @@
         <g id="_параметры-2" data-name="параметры">
           <text class="cls-217" transform="translate(9500 2405)"><tspan>На ФВД (факт)</tspan></text>
           <text class="cls-217" transform="translate(9500 2544)"><tspan>На ФВД</tspan></text>
-          <text class="cls-217" transform="translate(9500 2688)"><tspan>На ФВД (факт)</tspan></text>
-          <text class="cls-217" transform="translate(9500 2824)"><tspan>На ФВД</tspan></text>
+          <text class="cls-217" transform="translate(9500 2688)"><tspan>На ФНД (факт)</tspan></text>
+          <text class="cls-217" transform="translate(9500 2824)"><tspan>На ФНД</tspan></text>
           <text class="cls-217" transform="translate(9500 2975)"><tspan>На дежурную горелку СФУ (факт)</tspan></text>
         </g>
         <g id="_значения-2" data-name="значения">
-          <text class="cls-217" transform="translate(11380 2405)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(11380 2544)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(11380 2688)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(11380 2824)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(11380 2975)"><tspan>0</tspan></text>
+          <text id="gas-fvd_f"  class="cls-217" transform="translate(11380 2405)"><tspan>0</tspan></text>
+          <text id="gas-fvd"    class="cls-217" transform="translate(11380 2544)"><tspan>0</tspan></text>
+          <text id="gas-fnd_f"  class="cls-217" transform="translate(11380 2688)"><tspan>0</tspan></text>
+          <text id="gas-fnd"    class="cls-217" transform="translate(11380 2824)"><tspan>0</tspan></text>
+          <text id="gas-sfy"    class="cls-217" transform="translate(11380 2975)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
@@ -2264,9 +2261,9 @@
           <text class="cls-217" transform="translate(9785 1846)"><tspan>На дежурную горелку УНРА (факт)</tspan></text>
         </g>
         <g id="_значения-3" data-name="значения">
-          <text class="cls-217" transform="translate(11710 1562)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(11710 1700)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(11710 1846)"><tspan>0</tspan></text>
+          <text id="gas-ynra_f"       class="cls-217" transform="translate(11710 1562)"><tspan>0</tspan></text>
+          <text id="gas-ynra"         class="cls-217" transform="translate(11710 1700)"><tspan>0</tspan></text>
+          <text id="gas-ynra_dezh_f"  class="cls-217" transform="translate(11710 1846)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
@@ -2286,15 +2283,15 @@
         </g>
         <g id="_параметры-4" data-name="параметры">
           <text class="cls-217" transform="translate(9206 5041)"><tspan>Давление на входе, МПа (факт)</tspan></text>
-          <text class="cls-217" transform="translate(9206 5180)"><tspan>Расхд воды, м<tspan class="cls-222">3</tspan>/сут (факт)</tspan></text>
-          <text class="cls-217" transform="translate(9206 5324)"><tspan>Расхд воды, м<tspan class="cls-222">3</tspan>/сут</tspan></text>
+          <text class="cls-217" transform="translate(9206 5180)"><tspan>Расход воды, м<tspan class="cls-222">3</tspan>/сут (факт)</tspan></text>
+          <text class="cls-217" transform="translate(9206 5324)"><tspan>Расход воды, м<tspan class="cls-222">3</tspan>/сут</tspan></text>
           <text class="cls-217" transform="translate(9206 5467)"><tspan>Давление на выходе, МПа (факт)</tspan></text>
         </g>
         <g id="_значения-4" data-name="значения">
-          <text class="cls-217" transform="translate(11030 5041)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(11030 5180)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(11030 5324)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(11030 5467)"><tspan>0</tspan></text>
+          <text id="gas-press_in"   class="cls-217" transform="translate(11030 5041)"><tspan>0</tspan></text>
+          <text id="gas-water_f"    class="cls-217" transform="translate(11030 5180)"><tspan>0</tspan></text>
+          <text id="gas-water"      class="cls-217" transform="translate(11030 5324)"><tspan>0</tspan></text>
+          <text id="gas-press_out"  class="cls-217" transform="translate(11030 5467)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
@@ -2317,9 +2314,9 @@
           <text class="cls-217" transform="translate(8445 6207)"><tspan>Расход воды, м3/сут</tspan></text>
         </g>
         <g id="_значения-5" data-name="значения">
-          <text class="cls-217" transform="translate(10300 5924)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(10300 6062)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(10300 6207)"><tspan>0</tspan></text>
+          <text id="chzhpph-2-blue-press_out"   class="cls-217" transform="translate(10300 5924)"><tspan>0</tspan></text>
+          <text id="chzhpph-2-blue-press_out_f" class="cls-217" transform="translate(10300 6062)"><tspan>0</tspan></text>
+          <text id="chzhpph-2-blue-water"       class="cls-217" transform="translate(10300 6207)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
@@ -2340,8 +2337,8 @@
           <text class="cls-217" transform="translate(6663 6862)"><tspan>Давление на выходе, МПа (факт)</tspan></text>
         </g>
         <g id="_значения-6" data-name="значения">
-          <text class="cls-217" transform="translate(8480 6724)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(8480 6862)"><tspan>0</tspan></text>
+          <text id="chzhpph-2-yel-oil"          class="cls-217" transform="translate(8480 6724)"><tspan>0</tspan></text>
+          <text id="chzhpph-2-yel-press_out_f"  class="cls-217" transform="translate(8480 6862)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
@@ -2362,8 +2359,8 @@
           <text class="cls-217" transform="translate(6656 8044)"><tspan>Расход на входе, м<tspan class="cls-222">3</tspan>/сут</tspan></text>
         </g>
         <g id="_значения-7" data-name="значения">
-          <text class="cls-217" transform="translate(9030 7894)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(9030 8044)"><tspan>0</tspan></text>
+          <text id="res-blue-water_f" class="cls-217" transform="translate(9030 7894)"><tspan>0</tspan></text>
+          <text id="res-blue-water"   class="cls-217" transform="translate(9030 8044)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
@@ -2384,8 +2381,8 @@
           <text class="cls-217" transform="translate(6656 7478)"><tspan>Расход на входе, м<tspan class="cls-222">3</tspan>/сут</tspan></text>
         </g>
         <g id="_значения-8" data-name="значения">
-          <text class="cls-217" transform="translate(9080 7340)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(9080 7478)"><tspan>0</tspan></text>
+          <text id="res-yel-oil_f"  class="cls-217" transform="translate(9080 7340)"><tspan>0</tspan></text>
+          <text id="res-yel-oil"    class="cls-217" transform="translate(9080 7478)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
@@ -2412,11 +2409,11 @@
           <text class="cls-217" transform="translate(1908 7911)"><tspan>Уровень в ОВ-2, мм (факт)</tspan></text>
         </g>
         <g id="_значения-9" data-name="значения">
-          <text class="cls-217" transform="translate(3530 7343)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(3530 7480)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(3530 7626)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(3530 7770)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(3530 7911)"><tspan>0</tspan></text>
+          <text id="ov-water"   class="cls-217" transform="translate(3530 7343)"><tspan>0</tspan></text>
+          <text id="ov-press1"  class="cls-217" transform="translate(3530 7480)"><tspan>0</tspan></text>
+          <text id="ov-lev1"    class="cls-217" transform="translate(3530 7626)"><tspan>0</tspan></text>
+          <text id="ov-press2"  class="cls-217" transform="translate(3530 7770)"><tspan>0</tspan></text>
+          <text id="ov-lev2"    class="cls-217" transform="translate(3530 7911)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
@@ -2441,10 +2438,10 @@
           <text class="cls-217" transform="translate(144 6912)"><tspan>Давление на выходе, МПа (факт)</tspan></text>
         </g>
         <g id="_значения-10" data-name="значения">
-          <text class="cls-217" transform="translate(1960 6485)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(1960 6624)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(1960 6770)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(1960 6912)"><tspan>0</tspan></text>
+          <text id="oil-press_in"     class="cls-217" transform="translate(1960 6485)"><tspan>0</tspan></text>
+          <text id="oil-press_in_f"   class="cls-217" transform="translate(1960 6624)"><tspan>0</tspan></text>
+          <text id="oil-oil"          class="cls-217" transform="translate(1960 6770)"><tspan>0</tspan></text>
+          <text id="oil-press_out_f"  class="cls-217" transform="translate(1960 6912)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
@@ -2471,11 +2468,11 @@
           <text class="cls-217" transform="translate(2678 1027)"><tspan>Уровень ж-ти в С-2/2, мм (факт)</tspan></text>
         </g>
         <g id="_значения-11" data-name="значения">
-          <text class="cls-217" transform="translate(4430 455)"> <tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(4430 595)"> <tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(4430 740)"> <tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(4430 884)"> <tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(4430 1027)"><tspan>0</tspan></text>
+          <text id="sep2-oil"     class="cls-217" transform="translate(4430 455)"> <tspan>0</tspan></text>
+          <text id="sep2-press1"  class="cls-217" transform="translate(4430 595)"> <tspan>0</tspan></text>
+          <text id="sep2-lev1"    class="cls-217" transform="translate(4430 740)"> <tspan>0</tspan></text>
+          <text id="sep2-press2"  class="cls-217" transform="translate(4430 884)"> <tspan>0</tspan></text>
+          <text id="sep2-lev2"    class="cls-217" transform="translate(4430 1027)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
@@ -2501,10 +2498,10 @@
           <text class="cls-217" transform="translate(8928 862)"><tspan>На УУПЛСиПВ (факт)</tspan></text>
         </g>
         <g id="_значения-12" data-name="значения">
-          <text class="cls-217" transform="translate(10550 435)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(10550 574)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(10550 720)"><tspan>0</tspan></text>
-          <text class="cls-217" transform="translate(10550 862)"><tspan>0</tspan></text>
+          <text id="gas-fire-gpes_f"      class="cls-217" transform="translate(10550 435)"><tspan>0</tspan></text>
+          <text id="gas-fire-steamshop_f" class="cls-217" transform="translate(10550 574)"><tspan>0</tspan></text>
+          <text id="gas-fire-bake_f"      class="cls-217" transform="translate(10550 720)"><tspan>0</tspan></text>
+          <text id="gas-fire-yyplsipv_f"  class="cls-217" transform="translate(10550 862)"><tspan>0</tspan></text>
         </g>
       </g>
     </g>
