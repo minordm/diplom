@@ -23,3 +23,18 @@
     /* padding: 30px; */
 }
 
+.dialog-title {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    background: rgb(10, 25, 40);
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    color: white;
+    justify-content: space-between;
+}
+
+.header {
+    padding: 0px 15px;
+}

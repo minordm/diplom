@@ -11,8 +11,7 @@ import GraphicPage from './pages/GraphicPage/GraphicPage';
 function App() {
     const [isOpen, setIsOpen] = useState(false);
     const [paramerts, setParamerts] = useState([]);
-    const [selectedObjectId, setSelectedObjectId] = useState("");
-    const [selectedObjectClass, setSelectedObjectClass] = useState("");
+    const [selectedObjectName, setSelectedObjectName] = useState("");
 
   return (
     <>
@@ -21,8 +20,7 @@ function App() {
           <BodyScheme
             setIsOpen={setIsOpen}
             setParamerts={setParamerts}
-            setSelectedObjectId={setSelectedObjectId}
-            setSelectedObjectClass={setSelectedObjectClass}
+            setSelectedObjectName={setSelectedObjectName}
           />
           <RightPanel>
             <AlertList />
@@ -32,16 +30,13 @@ function App() {
             <div className="bg">
               <Dialog.Panel>
                 <div className="popup">
-                  <Dialog.Title>
-                    <div className="header">
-                      {selectedObjectId}
-                      <button onClick={() => setIsOpen(false)}>x</button>
-                    </div>
+                  <Dialog.Title className="dialog-title">
+                    <div className='header'>{selectedObjectName}</div>
+                    <button onClick={() => setIsOpen(false)}>x</button>
                   </Dialog.Title>
                   <GraphicPage
                     paramerts={paramerts}
-                    objectId={selectedObjectId}
-                    objectClass={selectedObjectClass}
+                    objectName={selectedObjectName}
                   />
                 </div>
               </Dialog.Panel>

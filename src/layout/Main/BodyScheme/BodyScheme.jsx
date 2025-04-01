@@ -9,8 +9,7 @@ import valueData from "../../../components/Graphic/ParametrList/ValueData.json";
 export default function BodyScheme({
   setIsOpen,
   setParamerts,
-  setSelectedObjectId,
-  setSelectedObjectClass
+  setSelectedObjectName
 }) {
   const [count, setCount] = useState(0);
   const tranformRef = useRef(null);
@@ -18,12 +17,12 @@ export default function BodyScheme({
   const handleClick = (event) => {
     if (event.target.tagName === "use") {
       // добавить для кружочков
-      const paramId = event.target.getAttribute("class");
+      const paramId = event.target.getAttribute("class-name");
       const dataId = event.target.getAttribute("id");
+      const nameId = event.target.getAttribute("name");
 
-      setSelectedObjectId(dataId);
-      setSelectedObjectClass(paramId);
-      console.log("Нажат объект", paramId, dataId);
+      setSelectedObjectName(nameId);
+      console.log("Нажат объект", paramId, dataId, nameId);
 
       if (paramId && dataId) {
         const params = paramertData[paramId];
