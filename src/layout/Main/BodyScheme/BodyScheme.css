@@ -25,20 +25,63 @@
     z-index: 10;
 }
 .zoomIn-button, .zoomOut-button, .zoomReset-button {
-    width: 52px;
-    height: 52px;
-    filter:  opacity(80%);
-    /* font-size: 15px; */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-small;
     font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    filter:  opacity(80%);
+    background: rgba(12, 32, 57, 0.4);
 }
 
-use:hover {
-    filter: brightness(0.3) sepia(0.5) opacity(60%);
+.zoomIn-button:hover,
+.zoomOut-button:hover,
+.zoomReset-button:hover {
+    filter: brightness(0.4);
+}
+
+use[clickable]:hover {
+    filter: brightness(0.3) opacity(60%);
+    cursor: pointer; /* должен менять курсор при наведении мышкой */
 }
 
 .table_plus {
     position: absolute;
-    top: 50px;
+    top: 150px;
     left: 10px;
     z-index: 10;
+}
+
+.table_info {
+    font-size: small;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+    background: rgba(12, 32, 57, 0.4);
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.yel-row {
+    font-weight: bold;
+    color: #fff800;
+}
+
+.orange-row {
+    font-weight: bold;
+    color: #ffaa01;
+}
+
+.blue-row {
+    font-weight: bold;
+    color: #0092ff;
+}
+
+.white-row {
+    font-weight: bold;
 }

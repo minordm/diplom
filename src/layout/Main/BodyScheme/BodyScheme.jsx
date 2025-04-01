@@ -15,7 +15,7 @@ export default function BodyScheme({
   const tranformRef = useRef(null);
 
   const handleClick = (event) => {
-    if (event.target.tagName === "use") {
+    if (event.target.hasAttribute("clickable")) {
       // добавить для кружочков
       const paramId = event.target.getAttribute("class-name");
       const dataId = event.target.getAttribute("id");
@@ -61,6 +61,27 @@ export default function BodyScheme({
 
   return (
     <div className="body-scheme">
+      <table className="table_info">
+        <tbody>
+          <tr className="yel-row">
+            <td>Газ</td>
+            <td>&ndash;&ndash;&ndash;&gt;</td>
+          </tr>
+          <tr className="orange-row">
+            <td>Нефть</td>
+            <td>&ndash;&ndash;&ndash;&gt;</td>
+          </tr>
+          <tr className="blue-row">
+            <td>Вода</td>
+            <td>&ndash;&ndash;&ndash;&gt;</td>
+          </tr>
+          <tr className='white-row'>
+            <td>Инф. выноска</td>
+            <td>&ndash; &ndash; &ndash;</td>
+          </tr>
+        </tbody>
+      </table>
+
       <button className="table_plus" onClick={() => setCount(count + 1)}>
         +
       </button>
@@ -94,7 +115,7 @@ export default function BodyScheme({
             className="scheme1"
             onClick={handleClick}
             beforeInjection={(svg) => {
-              const textElement = svg.querySelector("#sep1_press1");
+              const textElement = svg.querySelector("#sep1-oil");
               if (textElement) {
                 textElement.textContent = count;
               }
